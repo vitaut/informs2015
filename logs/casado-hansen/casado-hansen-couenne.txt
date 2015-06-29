@@ -1,0 +1,79 @@
+János D. Pintér and Victor Zverovich
+
+Legend
+MN  Model Name
+NV  Number of variables
+NC  Number of constraints
+OV  Known optimal value (or best known objective value)
+OS  Numerical optimal value returned by the solver
+CV  Maximal constraint violation
+FE  Number of model function and constraint evaluations
+RT  Solver runtime (complete execution time including input and license verification time)
+
+           MN  NV  NC         OV           OS CV FE        RT   
+0    casado01   1   0         -1            1  -  -  0.027493  ?
+1    casado02   1   0         -1           -1  -  -  0.039185   
+2    casado03   1   0          0  4.68791e-24  -  -  0.019315   
+3    casado04   1   0   -17.5829     -17.5829  -  -  0.026920   
+4    casado05   1   0  -0.020903   -0.0209027  -  -  0.032005   
+5    casado06   1   0  -0.952897    -0.952897  -  -  0.021554   
+6    casado07   1   0   -6.26287     -6.26287  -  -  0.026927   
+7    casado08   1   0   -0.07759   -0.0775897  -  -  0.023570   
+8    casado09   1   0   0.211315     0.211315  -  -  0.025775   
+9    casado10   1   0  -0.478362    -0.478362  -  -  0.025377   
+10   casado11   1   0   -5.81567     -5.81567  -  -  0.026099   
+11   casado12   1   0   -7.04744     -7.04744  -  -  0.047049   
+12   casado13   1   0   -4.60131     -4.60131  -  -  0.023375   
+13   casado14   1   0    -0.1411      -0.1411  -  -  0.017236   
+14   casado15   1   0  -0.870885    -0.870885  -  -  0.036334   
+15   casado16   1   0   -9.03125     -9.03125  -  -  0.049557   
+16   casado17   1   0   0.475689     0.475689  -  -  0.080817   
+17   casado18   1   0          0  3.69311e-14  -  -  0.027486   
+18   casado19   1   0         -1           -1  -  -  0.012855   
+19   casado20   1   0          1            1  -  -  0.012586   
+20   casado21   1   0          1            1  -  -  0.012338   
+21   casado22   1   0  -0.918397    -0.918397  -  -  0.017851   
+22   casado23   1   0  -0.824239    -0.824239  -  -  0.035374   
+23   casado24   1   0  -0.027864   -0.0278641  -  -  0.023947   
+24   casado25   1   0        3.5          3.5  -  -  0.049955   
+25   casado26   1   0   0.367879     0.367879  -  -  0.020949   
+26   casado27   1   0  -0.451388    -0.451388  -  -  0.218628   
+27   casado28   1   0         -1           -1  -  -  0.018575   
+28   casado29   1   0  -0.410315    -0.410315  -  -  0.047062   
+29   casado30   1   0  -0.718282    -0.718282  -  -  0.020765   
+30   casado31   1   0   -14.5927     -14.5927  -  -  0.118737   
+31   casado32   1   0         -1           -1  -  -  0.023873   
+32   casado33   1   0   -12.0312     -12.0312  -  -  0.107092   
+33   casado34   1   0  -0.535534    -0.535534  -  -  0.016825   
+34   casado35   1   0   -13.9223     -13.9223  -  -  0.178911   
+35   casado36   1   0      -0.35        -0.35  -  -  0.356184   
+36   casado37   1   0   -32.7813     -32.7813  -  -  0.697786   
+37   casado38   1   0          7            7  -  -  0.454214   
+38   casado39   1   0         -1    -0.999998  -  -  8.995332   
+39   casado40   1   0        -89          -89  -  -  8.599805   
+40  hansen01*   1   0    29763.2      29763.2  -  -  0.090368   
+41  hansen02*   1   0     1.8996       1.8996  -  -  0.022405   
+42  hansen03*   1   0    12.0312      12.0312  -  -  0.093371   
+43  hansen04*   1   0    3.85045      3.85045  -  -  0.500358   
+44  hansen05*   1   0    1.48907      1.48907  -  -  0.020430   
+45  hansen06*   1   0   0.824239     0.824239  -  -  0.036079   
+46  hansen07*   1   0     1.6013      1.60131  -  -  0.022455   
+47  hansen08*   1   0     14.508       14.508  -  -  0.046368   
+48  hansen09*   1   0    1.90596      1.90596  -  -  0.031076   
+49  hansen10*   1   0    7.91673      7.91673  -  -  0.021212   
+50  hansen11*   1   0        1.5          1.5  -  -  0.030506   
+51  hansen12*   1   0          1            1  -  -  0.021395   
+52  hansen13*   1   0     1.5874       1.5874  -  -  0.012295   
+53  hansen14*   1   0   0.788685     0.788685  -  -  0.011470   
+54  hansen15*   1   0    0.03553    0.0355339  -  -  0.014338   
+55  hansen16*   1   0   -7.51592     -7.51592  -  -  0.012480   
+56  hansen17*   1   0         -7           -7  -  -  0.515699   
+57  hansen18*   1   0          0           -4  -  -  0.004170  ?
+58  hansen19*   1   0    7.81567      7.81567  -  -  0.013728   
+59  hansen20*   1   0  0.0634905    0.0634905  -  -  0.025990   
+
+Summary of results
+Number of test problems: 60
+Number of successful solutions: 58 of 60
+Average relative error of solutions found: 2.8e-07
+Total solver runtime (seconds): 22.16

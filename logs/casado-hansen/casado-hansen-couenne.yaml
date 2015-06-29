@@ -1,0 +1,3458 @@
+- model: casado/casado01.mod
+  sha: d83bc5f2a89421d937b9d2ea8f9053d822231d4d
+  solver: couenne
+  start: 2015-05-28 15:15:35.504985
+  time: 0.0274930000305
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    ?
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.6100792714e-01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 7.9278259e-05       10 0.008
+    Couenne: new cutoff value 7.9278258957e-05 (0.012 seconds)
+    Loaded instance "/tmp/tmpK0USpj.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 18 (-1) rows, 5 (-1) columns and 37 (-2) elements
+    Clp0006I 0  Obj 0.00017928619 Primal inf 1.5493845 (6) Dual inf 7.4989411 (1)
+    Clp0006I 8  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0032I Optimal objective -1 - 8 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1
+    Couenne: new cutoff value -5.4731788247e-01 (0.012 seconds)
+    Cbc0012I Integer solution of 7.9278259e-05 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.7609118        5 0.004
+    Couenne: new cutoff value -7.6091159332e-01 (0.016 seconds)
+    solution found, obj. -0.760912
+    Cbc0012I Integer solution of -0.76091159 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -1
+    Optimality Based BT: 0 improved bounds
+    Probing: 0 improved bounds
+
+- model: casado/casado02.mod
+  sha: 12dd414a720f2526b44e1501b692157882bcb668
+  solver: couenne
+  start: 2015-05-28 15:15:35.551344
+  time: 0.0391850471497
+  timeout: False
+  obj: -1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.1099510148e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.65423647        5 0
+    Couenne: new cutoff value 6.5423662140e-01 (0.012 seconds)
+    Loaded instance "/tmp/tmptGQuXu.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           11 (0 integer)
+    
+    Coin0506I Presolve 20 (-6) rows, 7 (-5) columns and 44 (-12) elements
+    Clp0006I 0  Obj 0.65440205 Primal inf 20.813473 (6) Dual inf 0.50860531 (1)
+    Clp0006I 10  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0032I Optimal objective -1 - 10 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1
+    Cbc0012I Integer solution of 0.65423662 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 3        6 0.004
+    no solution.
+    Clp0000I Optimal - objective value -1
+    Optimality Based BT: 1 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0013I At root node, 0 cuts changed objective from -1 to -1 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 0 row cuts average 0.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -6.0062640297e-01 (0.028 seconds)
+    Couenne: new cutoff value -7.7442714663e-01 (0.028 seconds)
+    Couenne: new cutoff value -1.0000000000e+00 (0.032 seconds)
+    Cbc0012I Integer solution of -1 found by Couenne Rounding NLP after 12 iterations and 2 nodes (0.02 seconds)
+    Cbc0001I Search completed - best objective -1, took 12 iterations and 2 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         26
+    Linearization cuts added in total:             26  (separation time: 0s)
+    Total solve time:                            0.02s (0.02s in branch-and-bound)
+    Lower bound:                                   -1
+    Upper bound:                                   -1  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado03.mod
+  sha: 99d42a9aa5d854a1a395b4f8ea9a643daf8fde26
+  solver: couenne
+  start: 2015-05-28 15:15:35.629826
+  time: 0.0193150043488
+  timeout: False
+  obj: 4.68790700208e-24
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.0000000000e+00 (0.008 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 4.687907e-24        6 0
+    Couenne: new cutoff value 4.6879070021e-24 (0.008 seconds)
+    Loaded instance "/tmp/tmpiu_sRS.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 18 (-1) rows, 6 (-1) columns and 38 (-2) elements
+    Clp0006I 0  Obj 0 Primal inf 0.0094218779 (6)
+    Clp0006I 4  Obj 3.3201669e-19
+    Clp0000I Optimal - objective value 0
+    Clp0006I 0  Obj 0 Primal inf 6.7585198e-07 (1) Dual inf 5.9089617e+10 (2)
+    Clp0006I 2  Obj 0
+    Clp0000I Optimal - objective value 0
+    Clp0032I Optimal objective 0 - 6 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 0
+    Cbc0012I Integer solution of 4.687907e-24 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 4.0602129e-20        2 0.004
+    no solution.
+    Clp0001I Primal infeasible - objective value 0
+    Clp0001I Primal infeasible - objective value 0
+    Clp0006I 0  Obj 0
+    Clp0000I Optimal - objective value 0
+    Cbc0001I Search completed - best objective 4.687907002079344e-24, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    Clp0006I 0  Obj 0 Primal inf 0.00012305886 (3)
+    Clp0006I 2  Obj 0
+    Clp0000I Optimal - objective value 0
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         19
+    Linearization cuts added in total:             19  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                           4.68791e-24
+    Upper bound:                           4.68791e-24  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado04.mod
+  sha: d66580bf3bc203b1138b9d173097ab4504e79b70
+  solver: couenne
+  start: 2015-05-28 15:15:35.676322
+  time: 0.0269200801849
+  timeout: False
+  obj: -17.5828718845
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.0367641155e+01 (0.008 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 2.0540162        6 0.004
+    Couenne: new cutoff value 2.0540163546e+00 (0.012 seconds)
+    Loaded instance "/tmp/tmpiOD_gN.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 8 (-3) rows, 3 (-3) columns and 20 (-6) elements
+    Clp0006I 0  Obj 2.0543218 Primal inf 1.5660485 (2) Dual inf 1.4963499 (1)
+    Clp0006I 3  Obj -17.696184
+    Clp0000I Optimal - objective value -17.696184
+    Clp0032I Optimal objective -17.6961843 - 3 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -17.696184
+    Couenne: new cutoff value -1.4508400984e+01 (0.012 seconds)
+    Cbc0012I Integer solution of 2.0540164 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -17.582872        6 0.004
+    Couenne: new cutoff value -1.7582871884e+01 (0.016 seconds)
+    solution found, obj. -17.5829
+    Cbc0012I Integer solution of -17.582872 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -17.696184
+    Optimality Based BT: 0 improved bounds
+    Probing: 5 improved bounds
+    Cbc0031I 2 added rows had average density of 2.5
+    Cbc0013I At root node, 2 cuts changed objective from -17.696184 to -17.582877 in 2 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 3 row cuts average 2.3 elements, 2 column cuts (2 active)
+    Cbc0001I Search completed - best objective -17.58287188448004, took 4 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         11
+    Linearization cuts added in total:             11  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                             -17.5829
+    Upper bound:                             -17.5829  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado05.mod
+  sha: f0d8b96dddcb361e84f9825293bd6088c36fbe87
+  solver: couenne
+  start: 2015-05-28 15:15:35.722803
+  time: 0.03200507164
+  timeout: False
+  obj: -0.0209026660516
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -2.1230094526e-81 (0.008 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -2.1230095e-81        5 0
+    Loaded instance "/tmp/tmpSgMPAb.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            7 (0 integer)
+    
+    Coin0506I Presolve 17 (-3) rows, 5 (-3) columns and 35 (-6) elements
+    Clp0006I 0  Obj 0.0001 Primal inf 4.8147352 (9) Dual inf 1.0866424 (1)
+    Clp0006I 7  Obj -0.029655064
+    Clp0000I Optimal - objective value -0.029655064
+    Clp0032I Optimal objective -0.02965506433 - 7 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.029655064
+    NLP Heuristic: NLP0014I             2         OPT 8.6498147e-26        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value -0.029655064
+    Optimality Based BT: 2 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: Couenne: new cutoff value -2.0902666052e-02 (0.024 seconds)
+    solution found, obj. -0.0209027
+    Cbc0012I Integer solution of -0.020902666 found by Couenne Rounding NLP after 14 iterations and 0 nodes (0.02 seconds)
+    Cbc0031I 3 added rows had average density of 2
+    Cbc0013I At root node, 3 cuts changed objective from -0.029655064 to -0.022241298 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 12 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.02090266605163972, took 27 iterations and 2 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         20
+    Linearization cuts added in total:             20  (separation time: 0s)
+    Total solve time:                           0.016s (0.016s in branch-and-bound)
+    Lower bound:                           -0.0209027
+    Upper bound:                           -0.0209027  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado06.mod
+  sha: 8ffec35dcaa8d8ca6eeddc59a9ecf138b7c2f037
+  solver: couenne
+  start: 2015-05-28 15:15:35.768979
+  time: 0.0215539932251
+  timeout: False
+  obj: -0.952896792547
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 8.5422883044e-01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 1.4560586        4 0
+    Loaded instance "/tmp/tmpWX3FQK.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 8 (-2) rows, 4 (-1) columns and 17 (-4) elements
+    Clp0006I 0  Obj 0.85441425 Primal inf 3.7220738 (2) Dual inf 0.74719705 (1)
+    Clp0006I 4  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0032I Optimal objective -1 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1
+    Couenne: new cutoff value -5.7951349192e-01 (0.008 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.95289679        4 0.004
+    Couenne: new cutoff value -9.5289679255e-01 (0.012 seconds)
+    solution found, obj. -0.952897
+    Cbc0012I Integer solution of -0.95289679 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -1
+    Optimality Based BT: 0 improved bounds
+    Probing: 5 improved bounds
+    Cbc0031I 3 added rows had average density of 2
+    Cbc0013I At root node, 3 cuts changed objective from -1 to -0.95289823 in 2 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 4 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Cbc0001I Search completed - best objective -0.9528967925474365, took 2 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         10
+    Linearization cuts added in total:             10  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                            -0.952897
+    Upper bound:                            -0.952897  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado07.mod
+  sha: bb04871d5da5de949efa2154864aecbad3b3d543
+  solver: couenne
+  start: 2015-05-28 15:15:35.815288
+  time: 0.0269269943237
+  timeout: False
+  obj: -6.26287209418
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.0190637699e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -2.0740819        6 0
+    Couenne: new cutoff value -2.0740818894e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmp597ZqW.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 5 (-1) rows, 3 (-1) columns and 11 (-2) elements
+    Clp0006I 0  Obj -2.0737745 Primal inf 5.7199732 (2) Dual inf 2.4778632 (1)
+    Clp0006I 4  Obj -6.300593
+    Clp0000I Optimal - objective value -6.300593
+    Clp0032I Optimal objective -6.300593004 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -6.300593
+    Couenne: new cutoff value -6.2612531700e+00 (0.004 seconds)
+    Cbc0012I Integer solution of -2.0740819 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -6.2628721        3 0.004
+    Couenne: new cutoff value -6.2628720942e+00 (0.008 seconds)
+    solution found, obj. -6.26287
+    Cbc0012I Integer solution of -6.2628721 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -6.300593
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from -6.300593 to -6.2628944 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 20 row cuts average 2.0 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -6.262872094177989, took 24 iterations and 2 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          6
+    Linearization cuts added in total:              6  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                             -6.26287
+    Upper bound:                             -6.26287  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado08.mod
+  sha: 450c72b034d07c260f82132eeb2c59859b58c6cb
+  solver: couenne
+  start: 2015-05-28 15:15:35.860705
+  time: 0.02357006073
+  timeout: False
+  obj: -0.0775896851944
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 2.8490127532e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 1.0414709        4 0.004
+    Couenne: new cutoff value 1.0414709848e+00 (0.008 seconds)
+    Loaded instance "/tmp/tmpSDkdrS.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 5 (-1) rows, 3 (-1) columns and 11 (-2) elements
+    Clp0006I 0  Obj -0.8 Primal inf 4.1183865 (2)
+    Clp0006I 3  Obj -0.11250053
+    Clp0000I Optimal - objective value -0.11250053
+    Clp0032I Optimal objective -0.1125005343 - 3 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.11250053
+    Couenne: new cutoff value -7.4955147868e-02 (0.008 seconds)
+    Cbc0012I Integer solution of 1.041471 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.077589685        4 0
+    Couenne: new cutoff value -7.7589685194e-02 (0.012 seconds)
+    solution found, obj. -0.0775897
+    Cbc0012I Integer solution of -0.077589685 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -0.11250053
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -0.11250053 to -0.077599453 in 8 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 16 row cuts average 2.0 elements, 9 column cuts (9 active)
+    Cbc0001I Search completed - best objective -0.07758968519439946, took 15 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          6
+    Linearization cuts added in total:              6  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                           -0.0775897
+    Upper bound:                           -0.0775897  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado09.mod
+  sha: 2d451fed50dde5eb4bff6677a44ae613a12af5c8
+  solver: couenne
+  start: 2015-05-28 15:15:35.906439
+  time: 0.0257749557495
+  timeout: False
+  obj: 0.211314612591
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.0160604811e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.21131461        8 0.004
+    Couenne: new cutoff value 2.1131461259e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmpJ9OFk9.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 13 (-3) rows, 4 (-3) columns and 30 (-6) elements
+    Clp0006I 0  Obj 0.21143574 Primal inf 0.060810101 (7) Dual inf 0.999999 (1)
+    Clp0006I 5  Obj 0.21080712
+    Clp0000I Optimal - objective value 0.21080712
+    Clp0032I Optimal objective 0.210807123 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 0.21080712
+    Cbc0012I Integer solution of 0.21131461 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 0.21131461        3 0
+    no solution.
+    Clp0000I Optimal - objective value 0.21080712
+    Optimality Based BT: 0 improved bounds
+    Probing: 5 improved bounds
+    Cbc0031I 4 added rows had average density of 2.25
+    Cbc0013I At root node, 4 cuts changed objective from 0.21080712 to 0.21130621 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 4 row cuts average 2.2 elements, 1 column cuts (1 active)
+    Cbc0001I Search completed - best objective 0.2113146125913276, took 0 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         16
+    Linearization cuts added in total:             16  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                             0.211315
+    Upper bound:                             0.211315  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado10.mod
+  sha: cd43aa39c11f9134d7f045670787823eb8a6e242
+  solver: couenne
+  start: 2015-05-28 15:15:35.953530
+  time: 0.025377035141
+  timeout: False
+  obj: -0.478361868331
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.6060481092e-02 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.1759795        8 0.004
+    Couenne: new cutoff value -1.7597949680e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmpFdCVic.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 13 (-3) rows, 4 (-2) columns and 30 (-6) elements
+    Clp0006I 0  Obj -0.1758619 Primal inf 4.8030337 (7) Dual inf 1.0125693 (1)
+    Clp0006I 5  Obj -0.53813097
+    Clp0000I Optimal - objective value -0.53813097
+    Clp0032I Optimal objective -0.5381309666 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.53813097
+    Couenne: new cutoff value -4.4320642763e-01 (0.012 seconds)
+    Cbc0012I Integer solution of -0.1759795 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.47836187        3 0
+    Couenne: new cutoff value -4.7836186833e-01 (0.012 seconds)
+    solution found, obj. -0.478362
+    Cbc0012I Integer solution of -0.47836187 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -0.53813097
+    Optimality Based BT: 0 improved bounds
+    Probing: 4 improved bounds
+    Cbc0031I 4 added rows had average density of 2.25
+    Cbc0013I At root node, 5 cuts changed objective from -0.53813097 to -0.47836911 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 5 row cuts average 2.4 elements, 1 column cuts (1 active)
+    Cbc0001I Search completed - best objective -0.478361868330696, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         16
+    Linearization cuts added in total:             16  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                            -0.478362
+    Upper bound:                            -0.478362  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado11.mod
+  sha: 94b1681f6bcf7d8288a8c3832c96badec54d79b1
+  solver: couenne
+  start: 2015-05-28 15:15:35.999988
+  time: 0.0260989665985
+  timeout: False
+  obj: -5.81567454298
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -3.5809362301e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -3.7212794        5 0
+    Couenne: new cutoff value -3.7212794406e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpKsRdwO.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 5 (-1) rows, 3 (-1) columns and 11 (-2) elements
+    Clp0006I 0  Obj -3.7208073 Primal inf 0.29141047 (1) Dual inf 2.4814569 (1)
+    Clp0006I 2  Obj -5.8506704
+    Clp0000I Optimal - objective value -5.8506704
+    Clp0032I Optimal objective -5.85067038 - 2 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -5.8506704
+    Couenne: new cutoff value -5.8135688938e+00 (0.004 seconds)
+    Cbc0012I Integer solution of -3.7212794 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -5.8156745        3 0
+    Couenne: new cutoff value -5.8156745430e+00 (0.004 seconds)
+    solution found, obj. -5.81567
+    Cbc0012I Integer solution of -5.8156745 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -5.8506704
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from -5.8506704 to -5.8156967 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 20 row cuts average 2.0 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -5.815674542981391, took 25 iterations and 2 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          6
+    Linearization cuts added in total:              6  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                             -5.81567
+    Upper bound:                             -5.81567  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado12.mod
+  sha: bca9f82a4cbc74df6ff3dfa2e80be5e2488327ee
+  solver: couenne
+  start: 2015-05-28 15:15:36.046433
+  time: 0.0470488071442
+  timeout: False
+  obj: -7.04744407414
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -2.5727126684e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.18066569        5 0.004
+    Loaded instance "/tmp/tmpAAYZRC.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 20 (-1) rows, 6 (-1) columns and 47 (-2) elements
+    Clp0006I 0  Obj -2.5723554 Primal inf 34.771219 (5) Dual inf 1.7081085 (1)
+    Clp0006I 8  Obj -8.7757987
+    Clp0000I Optimal - objective value -8.7757987
+    Clp0032I Optimal objective -8.775798686 - 8 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -8.7757987
+    Couenne: new cutoff value -5.0447129042e+00 (0.008 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -7.0474441        7 0.004
+    Couenne: new cutoff value -7.0474440741e+00 (0.012 seconds)
+    solution found, obj. -7.04744
+    Cbc0012I Integer solution of -7.0474441 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -8.7757987
+    Optimality Based BT: 2 improved bounds
+    Probing: 7 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 5 added rows had average density of 2.2
+    Cbc0013I At root node, 5 cuts changed objective from -8.7757987 to -7.049718 in 5 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 10 row cuts average 2.2 elements, 2 column cuts (2 active)
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -7.047444074144375, took 52 iterations and 8 nodes (0.03 seconds)
+    Cbc0035I Maximum depth 3, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         21
+    Linearization cuts added in total:             21  (separation time: 0s)
+    Total solve time:                           0.032s (0.032s in branch-and-bound)
+    Lower bound:                             -7.04744
+    Upper bound:                             -7.04744  (gap: 0.00%)
+    Branch-and-bound nodes:                         8
+
+- model: casado/casado13.mod
+  sha: 0e60baafb8c9ab27cdb0aa94e5a97752d2934bbb
+  solver: couenne
+  start: 2015-05-28 15:15:36.124037
+  time: 0.0233747959137
+  timeout: False
+  obj: -4.60130754649
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -4.5419716345e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -4.6013075        5 0
+    Couenne: new cutoff value -4.6013075465e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpxBgurR.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 15 (-1) rows, 5 (-1) columns and 33 (-2) elements
+    Clp0006I 0  Obj -4.6007474 Primal inf 6.8092189 (4) Dual inf 0.42301327 (1)
+    Clp0006I 6  Obj -4.6540541
+    Clp0000I Optimal - objective value -4.6540541
+    Clp0032I Optimal objective -4.654054136 - 6 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -4.6540541
+    Cbc0012I Integer solution of -4.6013075 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -4.6013075        4 0
+    no solution.
+    Clp0000I Optimal - objective value -4.6540541
+    Optimality Based BT: 2 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -4.6540541 to -4.6013772 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 23 row cuts average 2.0 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -4.601307546494395, took 35 iterations and 4 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         16
+    Linearization cuts added in total:             16  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                             -4.60131
+    Upper bound:                             -4.60131  (gap: 0.00%)
+    Branch-and-bound nodes:                         4
+
+- model: casado/casado14.mod
+  sha: 77bba92fabd5088fe87731f2c2108203ee63c2ce
+  solver: couenne
+  start: 2015-05-28 15:15:36.168657
+  time: 0.017235994339
+  timeout: False
+  obj: -0.141100488473
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.5974168739e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.14110049        9 0
+    Couenne: new cutoff value -1.4110048847e-01 (0.004 seconds)
+    Loaded instance "/tmp/tmpVqEtjH.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 18 (-3) rows, 4 (-3) columns and 40 (-6) elements
+    Clp0006I 0  Obj -0.14098638 Primal inf 0.80312097 (1) Dual inf 0.63383941 (1)
+    Clp0006I 5  Obj -2.4453753
+    Clp0000I Optimal - objective value -2.4453753
+    Clp0032I Optimal objective -2.445375289 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -2.4453753
+    Cbc0012I Integer solution of -0.14110049 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.14110049        7 0
+    solution found, obj. -0.1411
+    Clp0000I Optimal - objective value -2.4453753
+    Optimality Based BT: 2 improved bounds
+    Probing: 6 improved bounds
+    Cbc0031I 4 added rows had average density of 2.5
+    Cbc0013I At root node, 6 cuts changed objective from -2.4453753 to -0.14110373 in 4 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 14 row cuts average 2.5 elements, 6 column cuts (6 active)
+    Cbc0001I Search completed - best objective -0.1411004884732913, took 12 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         21
+    Linearization cuts added in total:             21  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                              -0.1411
+    Upper bound:                              -0.1411  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado15.mod
+  sha: b1d5ca6cda21bd8c8d2ce2ffe5b018d3f4ede83f
+  solver: couenne
+  start: 2015-05-28 15:15:36.212791
+  time: 0.0363340377808
+  timeout: False
+  obj: -0.870885497726
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.0486261100e+01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 14.200645        5 0
+    Loaded instance "/tmp/tmpf2A2SV.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           11 (0 integer)
+    
+    Coin0506I Presolve 21 (-5) rows, 7 (-5) columns and 46 (-10) elements
+    Clp0006I 0  Obj -3 Primal inf 6.1246551 (5)
+    Clp0006I 5  Obj -3
+    Clp0000I Optimal - objective value -3
+    Clp0032I Optimal objective -3 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -3
+    NLP Heuristic: NLP0014I             2         OPT 9.2712488        6 0.004
+    Couenne: new cutoff value 9.2712487676e+00 (0.004 seconds)
+    solution found, obj. 9.27125
+    Cbc0012I Integer solution of 9.2712488 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -3
+    Optimality Based BT: Couenne: new cutoff value 9.0237675036e+00 (0.004 seconds)
+    1 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 1 added rows had average density of 2
+    Cbc0013I At root node, 1 cuts changed objective from -3 to -3 in 2 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 1 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: Couenne: new cutoff value 8.4127287544e+00 (0.008 seconds)
+    0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Couenne: new cutoff value 3.2324055107e+00 (0.016 seconds)
+    Couenne: new cutoff value -8.7088549773e-01 (0.016 seconds)
+    Cbc0012I Integer solution of -0.8708855 found by Couenne Rounding NLP after 10 iterations and 2 nodes (0.02 seconds)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.8708854977256837, took 67 iterations and 10 nodes (0.03 seconds)
+    Cbc0035I Maximum depth 3, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         26
+    Linearization cuts added in total:             26  (separation time: 0s)
+    Total solve time:                           0.028s (0.028s in branch-and-bound)
+    Lower bound:                            -0.870885
+    Upper bound:                            -0.870885  (gap: 0.00%)
+    Branch-and-bound nodes:                        10
+
+- model: casado/casado16.mod
+  sha: 4a9d5ee4d82c9003035d42dbd81df18c303fc466
+  solver: couenne
+  start: 2015-05-28 15:15:36.288882
+  time: 0.0495569705963
+  timeout: False
+  obj: -9.03124944217
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -3.6359069770e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.73247816       16 0.008
+    Couenne: new cutoff value -7.3247815937e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmp_JBNyH.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           11 (0 integer)
+    
+    Coin0506I Presolve 21 (-5) rows, 7 (-5) columns and 46 (-10) elements
+    Clp0006I 0  Obj -0.73230491 Primal inf 18.757973 (6) Dual inf 5.2673043 (1)
+    Clp0006I 9  Obj -12
+    Clp0000I Optimal - objective value -12
+    Clp0032I Optimal objective -12 - 9 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -12
+    Cbc0012I Integer solution of -0.73247816 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 0.40250817        4 0
+    no solution.
+    Clp0000I Optimal - objective value -12
+    Optimality Based BT: 2 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 1 added rows had average density of 2
+    Cbc0013I At root node, 1 cuts changed objective from -12 to -12 in 2 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 1 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -6.0468495325e+00 (0.024 seconds)
+    Couenne: new cutoff value -6.4835082981e+00 (0.024 seconds)
+    Couenne: new cutoff value -6.4947062377e+00 (0.024 seconds)
+    Cbc0012I Integer solution of -6.4947062 found by Couenne Rounding NLP after 14 iterations and 2 nodes (0.02 seconds)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Couenne: new cutoff value -8.9851309892e+00 (0.032 seconds)
+    Couenne: new cutoff value -9.0312494422e+00 (0.036 seconds)
+    Cbc0012I Integer solution of -9.0312494 found by Couenne Rounding NLP after 51 iterations and 6 nodes (0.03 seconds)
+    Cbc0001I Search completed - best objective -9.031249442167139, took 99 iterations and 12 nodes (0.03 seconds)
+    Cbc0035I Maximum depth 4, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         26
+    Linearization cuts added in total:             26  (separation time: 0s)
+    Total solve time:                           0.032s (0.032s in branch-and-bound)
+    Lower bound:                             -9.03125
+    Upper bound:                             -9.03125  (gap: 0.00%)
+    Branch-and-bound nodes:                        12
+
+- model: casado/casado17.mod
+  sha: cbbf8cb528636740c9871e37a91e904347861d66
+  solver: couenne
+  start: 2015-05-28 15:15:36.365044
+  time: 0.0808169841766
+  timeout: False
+  obj: 0.475688626368
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 5.2713139917e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.47568863        6 0
+    Couenne: new cutoff value 4.7568862637e-01 (0 seconds)
+    Loaded instance "/tmp/tmpsYSrZE.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            7 (0 integer)
+    
+    Coin0506I Presolve 16 (-3) rows, 5 (-3) columns and 33 (-6) elements
+    Clp0006I 0  Obj 0.37272187 Primal inf 0.10783783 (4)
+    Clp0006I 8  Obj 0.47475466
+    Clp0000I Optimal - objective value 0.47475466
+    Clp0032I Optimal objective 0.4747546603 - 8 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 0.47475466
+    Cbc0012I Integer solution of 0.47568863 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 0.47568863        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value 0.47475466
+    Optimality Based BT: 2 improved bounds
+    Probing: 2 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from 0.47475466 to 0.47567057 in 8 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 15 row cuts average 2.0 elements, 9 column cuts (9 active)
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective 0.4756886263682927, took 210 iterations and 322 nodes (0.07 seconds)
+    Cbc0035I Maximum depth 9, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         19
+    Linearization cuts added in total:             19  (separation time: 0s)
+    Total solve time:                           0.072s (0.072s in branch-and-bound)
+    Lower bound:                             0.475689
+    Upper bound:                             0.475689  (gap: 0.00%)
+    Branch-and-bound nodes:                       322
+    Performance of                           FBBT:	      0.008s,      220 runs. fix:   0.154322 shrnk:    1.81556 ubd:          0 2ubd:          0 infeas:          0
+
+- model: casado/casado18.mod
+  sha: 49991f2b422467ef01c30ab03c25e97a1f028e70
+  solver: couenne
+  start: 2015-05-28 15:15:36.490950
+  time: 0.0274858474731
+  timeout: False
+  obj: 3.69310937664e-14
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 3.7155056661e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.017651296        4 0
+    Couenne: new cutoff value 1.7651298349e-02 (0 seconds)
+    Loaded instance "/tmp/tmpXDQItB.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 17 (-1) rows, 5 (0) columns and 36 (-2) elements
+    Clp0006I 0  Obj 0 Primal inf 0.79378862 (3)
+    Clp0006I 4  Obj 1.2285265e-18
+    Clp0000I Optimal - objective value 0
+    Clp0032I Optimal objective 0 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 0
+    Cbc0012I Integer solution of 0.017651298 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 0.017651296        4 0
+    no solution.
+    Clp0000I Optimal - objective value 0
+    Optimality Based BT: 2 improved bounds
+    Probing: 1 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from 0 to 0 in 9 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 9 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: Couenne: new cutoff value 1.9745996573e-05 (0.012 seconds)
+    0 improved bounds
+    Cbc0004I Integer solution of 1.9745996e-05 found after 18 iterations and 1 nodes (0.01 seconds)
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value 4.5046308063e-06 (0.016 seconds)
+    Couenne: new cutoff value 1.7461065852e-06 (0.016 seconds)
+    Couenne: new cutoff value 3.6931093766e-14 (0.016 seconds)
+    Cbc0012I Integer solution of 3.6931094e-14 found by Couenne Rounding NLP after 29 iterations and 2 nodes (0.02 seconds)
+    Cbc0001I Search completed - best objective 3.693109376637088e-14, took 29 iterations and 2 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         18
+    Linearization cuts added in total:             18  (separation time: 0s)
+    Total solve time:                           0.016s (0.016s in branch-and-bound)
+    Lower bound:                           3.69311e-14
+    Upper bound:                           3.69311e-14  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado19.mod
+  sha: 33e917a5e788b377c6d85cf4df844bc288c6350d
+  solver: couenne
+  start: 2015-05-28 15:15:36.534748
+  time: 0.012855052948
+  timeout: False
+  obj: -1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.0000000000e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1        3 0
+    Loaded instance "/tmp/tmpY1Tb2i.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 7 (-1) rows, 4 (-1) columns and 15 (-2) elements
+    Clp0006I 0  Obj -0.9998 Primal inf 0.00013841088 (2) Dual inf 1.4351819 (1)
+    Clp0006I 3  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0006I 0  Obj -1 Primal inf 2.1448008e-07 (1) Dual inf 2.0994282e+10 (2)
+    Clp0006I 2  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0032I Optimal objective -1 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1
+    NLP Heuristic: NLP0014I             2         OPT -1        3 0
+    no solution.
+    Clp0000I Optimal - objective value -0.99999922
+    Clp0006I 0  Obj -1 Primal inf 0.00012450008 (2)
+    Clp0006I 1  Obj -1
+    Clp0000I Optimal - objective value -1
+    Optimality Based BT: 0 improved bounds
+    Cbc0004I Integer solution of -1 found after 1 iterations and 2 nodes (0.00 seconds)
+    Cbc0001I Search completed - best objective -1, took 1 iterations and 2 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          8
+    Linearization cuts added in total:              8  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                                   -1
+    Upper bound:                                   -1  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado20.mod
+  sha: 9f616e9c03065f27b25ad0a23060a8276a39f9cc
+  solver: couenne
+  start: 2015-05-28 15:15:36.563072
+  time: 0.0125861167908
+  timeout: False
+  obj: 1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.0000000000e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 1        4 0
+    Loaded instance "/tmp/tmpZnzRov.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            2 (0 integer)
+    
+    Coin0506I Presolve 10 (0) rows, 3 (0) columns and 20 (0) elements
+    Clp0006I 0  Obj 1 Primal inf 0.000349765 (2)
+    Clp0006I 2  Obj 1
+    Clp0000I Optimal - objective value 1
+    Clp0032I Optimal objective 1 - 2 iterations time 0.002
+    Clp0000I Optimal - objective value 1
+    NLP Heuristic: NLP0014I             2         OPT 1        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value 1.0000008
+    Clp0006I 0  Obj 1 Primal inf 7.4892501e-05 (1)
+    Clp0006I 1  Obj 1
+    Clp0000I Optimal - objective value 1
+    Optimality Based BT: 0 improved bounds
+    Cbc0004I Integer solution of 1 found after 3 iterations and 2 nodes (0.00 seconds)
+    Cbc0001I Search completed - best objective 1, took 3 iterations and 2 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         10
+    Linearization cuts added in total:             10  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                                    1
+    Upper bound:                                    1  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado21.mod
+  sha: d99a5b5a3d5d7853568eba5e4b4f1f6a79e65baf
+  solver: couenne
+  start: 2015-05-28 15:15:36.591187
+  time: 0.0123379230499
+  timeout: False
+  obj: 1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.0000000000e+00 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 1        4 0
+    Loaded instance "/tmp/tmp5Gz0_Q.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 7 (0) rows, 4 (0) columns and 15 (0) elements
+    Clp0006I 0  Obj 1 Primal inf 0.0040159962 (3)
+    Clp0006I 4  Obj 1
+    Clp0000I Optimal - objective value 1
+    Clp0032I Optimal objective 1 - 4 iterations time 0.002
+    Clp0000I Optimal - objective value 1
+    NLP Heuristic: NLP0014I             2         OPT 1        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value 1.0000009
+    Clp0006I 0  Obj 1 Primal inf 0.00051563879 (1)
+    Clp0006I 2  Obj 1
+    Clp0000I Optimal - objective value 1
+    Optimality Based BT: 0 improved bounds
+    Cbc0004I Integer solution of 1 found after 3 iterations and 2 nodes (0.00 seconds)
+    Cbc0001I Search completed - best objective 1, took 3 iterations and 2 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          7
+    Linearization cuts added in total:              7  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                                    1
+    Upper bound:                                    1  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado22.mod
+  sha: 688791b88e2e1d493033f36a593513ff9d942715
+  solver: couenne
+  start: 2015-05-28 15:15:36.619074
+  time: 0.0178511142731
+  timeout: False
+  obj: -0.918397340887
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -8.6351357140e-01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.91839734        6 0
+    Couenne: new cutoff value -9.1839734089e-01 (0.004 seconds)
+    Loaded instance "/tmp/tmpXkOLsx.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            7 (0 integer)
+    
+    Coin0506I Presolve 16 (-3) rows, 6 (-2) columns and 37 (-6) elements
+    Clp0006I 0  Obj -0.9182055 Primal inf 0.28190426 (7) Dual inf 2.0824353 (1)
+    Clp0006I 8  Obj -0.92255693
+    Clp0000I Optimal - objective value -0.92255693
+    Clp0032I Optimal objective -0.9225569334 - 8 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.92255693
+    Cbc0012I Integer solution of -0.91839734 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.91839734        3 0
+    solution found, obj. -0.918397
+    Clp0000I Optimal - objective value -0.92255693
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 5 added rows had average density of 2.2
+    Cbc0013I At root node, 5 cuts changed objective from -0.92255693 to -0.91841616 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 21 row cuts average 2.2 elements, 12 column cuts (12 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.9183973408867072, took 26 iterations and 2 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         19
+    Linearization cuts added in total:             19  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                            -0.918397
+    Upper bound:                            -0.918397  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: casado/casado23.mod
+  sha: e538287e673b70ec488fb7123d7a9ca0880c021c
+  solver: couenne
+  start: 2015-05-28 15:15:36.663282
+  time: 0.0353741645813
+  timeout: False
+  obj: -0.824239398476
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 0.0000000000e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.8242394        9 0.004
+    Couenne: new cutoff value -8.2423939848e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmp89MtPi.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 20 (-1) rows, 6 (-1) columns and 45 (-2) elements
+    Clp0006I 0  Obj -0.82405697 Primal inf 3.1390289 (10) Dual inf 0.999999 (1)
+    Clp0006I 10  Obj -0.9136791
+    Clp0000I Optimal - objective value -0.9136791
+    Clp0032I Optimal objective -0.9136790991 - 10 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.9136791
+    Cbc0012I Integer solution of -0.8242394 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.8242394        3 0
+    no solution.
+    Clp0000I Optimal - objective value -0.9136791
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 5 added rows had average density of 2.4
+    Cbc0013I At root node, 5 cuts changed objective from -0.9136791 to -0.82452001 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 39 row cuts average 2.3 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.8242393984760766, took 76 iterations and 6 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         21
+    Linearization cuts added in total:             21  (separation time: 0s)
+    Total solve time:                            0.02s (0.02s in branch-and-bound)
+    Lower bound:                            -0.824239
+    Upper bound:                            -0.824239  (gap: 0.00%)
+    Branch-and-bound nodes:                         6
+
+- model: casado/casado24.mod
+  sha: be47c12c1bc7108fd96d2fdb3e39f330bdfb1c76
+  solver: couenne
+  start: 2015-05-28 15:15:36.742087
+  time: 0.0239470005035
+  timeout: False
+  obj: -0.0278640701954
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -2.4182611540e-02 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.02786407        7 0.004
+    Couenne: new cutoff value -2.7864070195e-02 (0.012 seconds)
+    Loaded instance "/tmp/tmpdOpRHH.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 13 (-2) rows, 4 (-2) columns and 30 (-4) elements
+    Clp0006I 0  Obj -0.027761284 Primal inf 0.28524453 (7) Dual inf 0.13852753 (1)
+    Clp0006I 4  Obj -0.028505502
+    Clp0000I Optimal - objective value -0.028505502
+    Clp0032I Optimal objective -0.02850550174 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.028505502
+    Cbc0012I Integer solution of -0.02786407 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.02786407        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value -0.028505502
+    Optimality Based BT: 1 improved bounds
+    Probing: 5 improved bounds
+    Cbc0031I 4 added rows had average density of 2.5
+    Cbc0013I At root node, 5 cuts changed objective from -0.028505502 to -0.027872697 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 5 row cuts average 2.4 elements, 2 column cuts (2 active)
+    Cbc0001I Search completed - best objective -0.0278640701953884, took 0 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         15
+    Linearization cuts added in total:             15  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                           -0.0278641
+    Upper bound:                           -0.0278641  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado25.mod
+  sha: aba8f41ec1abdafcec9f6eda19bca2ed9b1e87a2
+  solver: couenne
+  start: 2015-05-28 15:15:36.788802
+  time: 0.0499551296234
+  timeout: False
+  obj: 3.5
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 3.8148344819e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 3.5        5 0.004
+    Couenne: new cutoff value 3.5000000000e+00 (0.008 seconds)
+    Loaded instance "/tmp/tmpIvA5vo.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 2 (-4) rows, 2 (-3) columns and 4 (-9) elements
+    Clp0006I 0  Obj 2.3369508 Primal inf 1.1634982 (1)
+    Clp0006I 1  Obj 2.3369508
+    Clp0000I Optimal - objective value 2.3369508
+    Clp0032I Optimal objective 2.336950783 - 1 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 2.3369508
+    Cbc0012I Integer solution of 3.5 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 3.5        5 0
+    no solution.
+    Clp0000I Optimal - objective value 2.3369508
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 1 added rows had average density of 2
+    Cbc0013I At root node, 1 cuts changed objective from 2.3369508 to 3.3961829 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 10 row cuts average 2.0 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0001I Search completed - best objective 3.5, took 64 iterations and 8 nodes (0.03 seconds)
+    Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          6
+    Linearization cuts added in total:              6  (separation time: 0s)
+    Total solve time:                           0.032s (0.032s in branch-and-bound)
+    Lower bound:                                  3.5
+    Upper bound:                                  3.5  (gap: 0.00%)
+    Branch-and-bound nodes:                         8
+
+- model: casado/casado26.mod
+  sha: 6a3bd96f8f32d3d45b043797ce1f62344a3c652a
+  solver: couenne
+  start: 2015-05-28 15:15:36.867684
+  time: 0.0209488868713
+  timeout: False
+  obj: 0.367879441171
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 3.7495988575e-01 (0.008 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.36787944       10 0.004
+    Couenne: new cutoff value 3.6787944117e-01 (0.012 seconds)
+    Loaded instance "/tmp/tmpFZ1IQV.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 8 (-3) rows, 3 (-1) columns and 16 (-6) elements
+    Clp0006I 0  Obj 0.36787944 Primal inf 0.00067889205 (5)
+    Clp0006I 2  Obj 0.36787944
+    Clp0000I Optimal - objective value 0.36787944
+    Clp0032I Optimal objective 0.3678794412 - 2 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 0.36787944
+    Cbc0012I Integer solution of 0.36787944 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 0.36787944        3 0
+    no solution.
+    Cbc0001I Search completed - best objective 0.3678794411714423, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    Clp0006I 0  Obj 0.36787944 Primal inf 0.013635776 (1)
+    Clp0006I 2  Obj 0.36787944
+    Clp0000I Optimal - objective value 0.36787944
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         11
+    Linearization cuts added in total:             11  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                             0.367879
+    Upper bound:                             0.367879  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado27.mod
+  sha: dbb03be58ba105e986fc1b5a275eb160df8d1b30
+  solver: couenne
+  start: 2015-05-28 15:15:36.913554
+  time: 0.218628168106
+  timeout: False
+  obj: -0.451387818866
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.3030974178e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 1.3355049        4 0
+    Loaded instance "/tmp/tmpTCGg4i.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 17 (0) rows, 6 (0) columns and 39 (0) elements
+    Clp0006I 0  Obj -1.3 Primal inf 10.800145 (6)
+    Clp0006I 5  Obj -1.3
+    Clp0000I Optimal - objective value -1.3
+    Clp0032I Optimal objective -1.3 - 5 iterations time 0.002
+    Clp0000I Optimal - objective value -1.3
+    Couenne: new cutoff value 4.3140713206e-01 (0.004 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.45138782        5 0.004
+    Couenne: new cutoff value -4.5138781887e-01 (0.008 seconds)
+    solution found, obj. -0.451388
+    Cbc0012I Integer solution of -0.45138782 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -1.3
+    Optimality Based BT: 0 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 3 added rows had average density of 2.3333333
+    Cbc0013I At root node, 3 cuts changed objective from -1.3 to -0.59170148 in 3 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 6 row cuts average 2.3 elements, 1 column cuts (1 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.4513878188659973, took 457 iterations and 748 nodes (0.19 seconds)
+    Cbc0035I Maximum depth 12, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         17
+    Linearization cuts added in total:             17  (separation time: 0s)
+    Total solve time:                           0.192s (0.192s in branch-and-bound)
+    Lower bound:                            -0.451388
+    Upper bound:                            -0.451388  (gap: 0.00%)
+    Branch-and-bound nodes:                       748
+    Performance of                           FBBT:	      0.004s,      508 runs. fix:  0.0126834 shrnk:   0.543381 ubd:          0 2ubd:          0 infeas:         32
+
+- model: casado/casado28.mod
+  sha: 8d2444f2102c737181fcf19670bb947a603e1c75
+  solver: couenne
+  start: 2015-05-28 15:15:37.191598
+  time: 0.0185749530792
+  timeout: False
+  obj: -1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -5.4402111089e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1        6 0.004
+    Couenne: new cutoff value -1.0000000000e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpTILhgr.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            1 (0 integer)
+    
+    Coin0506I Presolve 2 (-2) rows, 2 (0) columns and 4 (-4) elements
+    Clp0006I 0  Obj -0.9998 Dual inf 0.999999 (1)
+    Clp0006I 1  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0032I Optimal objective -1 - 1 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1
+    Cbc0012I Integer solution of -1 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1        3 0.004
+    no solution.
+    Cbc0001I Search completed - best objective -1, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    Clp0006I 0  Obj -1 Primal inf 0.0099997333 (1)
+    Clp0006I 1  Obj -1
+    Clp0000I Optimal - objective value -1
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          4
+    Linearization cuts added in total:              4  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                                   -1
+    Upper bound:                                   -1  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado29.mod
+  sha: 61def882424eb19a17de5388f486423cdbc31832
+  solver: couenne
+  start: 2015-05-28 15:15:37.237694
+  time: 0.047061920166
+  timeout: False
+  obj: -0.410315206655
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -3.2964746441e-01 (0.008 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.41031521        7 0.004
+    Couenne: new cutoff value -4.1031520666e-01 (0.012 seconds)
+    Loaded instance "/tmp/tmpo7sT1R.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 13 (-2) rows, 4 (-2) columns and 27 (-4) elements
+    Clp0006I 0  Obj -0.41017418 Primal inf 0.010603353 (1) Dual inf 1.999999 (1)
+    Clp0006I 5  Obj -0.56930224
+    Clp0000I Optimal - objective value -0.56930224
+    Clp0032I Optimal objective -0.5693022373 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.56930224
+    Cbc0012I Integer solution of -0.41031521 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.41031521        3 0.004
+    solution found, obj. -0.410315
+    Clp0000I Optimal - objective value -0.56930224
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 3 added rows had average density of 2
+    Cbc0013I At root node, 3 cuts changed objective from -0.56930224 to -0.41074512 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 19 row cuts average 2.0 elements, 12 column cuts (12 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.4103152066554343, took 46 iterations and 8 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         15
+    Linearization cuts added in total:             15  (separation time: 0s)
+    Total solve time:                            0.02s (0.02s in branch-and-bound)
+    Lower bound:                            -0.410315
+    Upper bound:                            -0.410315  (gap: 0.00%)
+    Branch-and-bound nodes:                         8
+
+- model: casado/casado30.mod
+  sha: 6b41f40bbd0b0327d2aec47c805cfea7a01e23c8
+  solver: couenne
+  start: 2015-05-28 15:15:37.316982
+  time: 0.0207650661469
+  timeout: False
+  obj: -0.718281828459
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.6250401142e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.71828183       10 0.004
+    Couenne: new cutoff value -7.1828182846e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmpVvhmr3.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 2 (-10) rows, 2 (-3) columns and 4 (-20) elements
+    Clp0006I 0  Obj -0.71811 Dual inf 0.999999 (1)
+    Clp0006I 1  Obj -0.71828183
+    Clp0000I Optimal - objective value -0.71828183
+    Clp0032I Optimal objective -0.7182818285 - 1 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.71828183
+    Cbc0012I Integer solution of -0.71828183 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.71828183        3 0
+    no solution.
+    Cbc0001I Search completed - best objective -0.7182818284590451, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    Clp0006I 0  Obj -0.71828183 Primal inf 6.2888072 (1)
+    Clp0006I 1  Obj -0.71828183
+    Clp0000I Optimal - objective value -0.71828183
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         12
+    Linearization cuts added in total:             12  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                            -0.718282
+    Upper bound:                            -0.718282  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado31.mod
+  sha: 85fb590a13a17136bb2a6f256eb8a18ae7270cb0
+  solver: couenne
+  start: 2015-05-28 15:15:37.362874
+  time: 0.118736982346
+  timeout: False
+  obj: -14.5926520257
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.2404572024e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -12.908773       15 0.012
+    Couenne: new cutoff value -1.2908772745e+01 (0.016 seconds)
+    Loaded instance "/tmp/tmpsc9Yf6.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           51 (0 integer)
+    
+    Coin0506I Presolve 121 (-30) rows, 22 (-30) columns and 251 (-60) elements
+    Clp0006I 0  Obj -12.907382 Primal inf 489.89042 (72) Dual inf 21.161854 (1)
+    Clp0006I 23  Obj -58.124821
+    Clp0000I Optimal - objective value -58.124821
+    Clp0032I Optimal objective -58.12482099 - 23 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -58.124821
+    Cbc0012I Integer solution of -12.908773 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -12.908773        6 0.004
+    no solution.
+    Clp0000I Optimal - objective value -58.124821
+    Optimality Based BT: 0 improved bounds
+    Probing: 11 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 18 added rows had average density of 2
+    Cbc0013I At root node, 18 cuts changed objective from -58.124821 to -20.596706 in 8 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 76 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Couenne: new cutoff value -1.4536766554e+01 (0.064 seconds)
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -1.4579014437e+01 (0.08 seconds)
+    Couenne: new cutoff value -1.4588926260e+01 (0.08 seconds)
+    Couenne: new cutoff value -1.4592652026e+01 (0.084 seconds)
+    Cbc0012I Integer solution of -14.592652 found by Couenne Rounding NLP after 158 iterations and 1 nodes (0.07 seconds)
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -14.5926520256939, took 192 iterations and 4 nodes (0.09 seconds)
+    Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:        151
+    Linearization cuts added in total:            151  (separation time: 0s)
+    Total solve time:                           0.088s (0.088s in branch-and-bound)
+    Lower bound:                             -14.5927
+    Upper bound:                             -14.5927  (gap: 0.00%)
+    Branch-and-bound nodes:                         4
+    Performance of                           FBBT:	      0.004s,       18 runs. fix:          0 shrnk:     9.1491 ubd:          0 2ubd:          0 infeas:          2
+
+- model: casado/casado32.mod
+  sha: f4ae97fc846823766da9b2d51e06e134a2be571d
+  solver: couenne
+  start: 2015-05-28 15:15:37.541691
+  time: 0.023873090744
+  timeout: False
+  obj: -1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 9.2491362702e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1        7 0
+    Couenne: new cutoff value -1.0000000000e+00 (0 seconds)
+    Loaded instance "/tmp/tmpKXS51y.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            2 (0 integer)
+    
+    Coin0506I Presolve 8 (-2) rows, 3 (0) columns and 16 (-4) elements
+    Clp0006I 0  Obj -0.9998 Primal inf 5.5637862 (5) Dual inf 0.66627267 (1)
+    Clp0006I 2  Obj -1
+    Clp0000I Optimal - objective value -1
+    Clp0032I Optimal objective -1 - 2 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1
+    Cbc0012I Integer solution of -1 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1        7 0.004
+    no solution.
+    Clp0001I Primal infeasible - objective value -1
+    Clp0001I Primal infeasible - objective value -1
+    Clp0006I 0  Obj -1
+    Clp0000I Optimal - objective value -1
+    Cbc0001I Search completed - best objective -1, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    Clp0006I 0  Obj -1 Primal inf 13.711027 (2)
+    Clp0006I 2  Obj -1
+    Clp0000I Optimal - objective value -1
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         10
+    Linearization cuts added in total:             10  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                                   -1
+    Upper bound:                                   -1  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado33.mod
+  sha: 9f4afce11f51612a5d9e5d4bfc102a23d90f9d72
+  solver: couenne
+  start: 2015-05-28 15:15:37.587824
+  time: 0.107092142105
+  timeout: False
+  obj: -12.0312494422
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.7384054919e+00 (0.008 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -12.031249        8 0.004
+    Couenne: new cutoff value -1.2031249442e+01 (0.012 seconds)
+    Loaded instance "/tmp/tmpvlLNsh.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           11 (0 integer)
+    
+    Coin0506I Presolve 19 (-7) rows, 7 (-5) columns and 42 (-14) elements
+    Clp0006I 0  Obj -12.029946 Primal inf 14.086697 (5) Dual inf 6.7070118 (1)
+    Clp0006I 11  Obj -15
+    Clp0000I Optimal - objective value -15
+    Clp0032I Optimal objective -15 - 11 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -15
+    Cbc0012I Integer solution of -12.031249 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -3.7324782        4 0
+    no solution.
+    Clp0000I Optimal - objective value -15
+    Optimality Based BT: 2 improved bounds
+    Probing: 0 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0013I At root node, 0 cuts changed objective from -15 to -15 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 0 row cuts average 0.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -12.03124944216714, took 208 iterations and 24 nodes (0.07 seconds)
+    Cbc0035I Maximum depth 5, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         26
+    Linearization cuts added in total:             26  (separation time: 0.004s)
+    Total solve time:                           0.072s (0.072s in branch-and-bound)
+    Lower bound:                             -12.0312
+    Upper bound:                             -12.0312  (gap: 0.00%)
+    Branch-and-bound nodes:                        24
+
+- model: casado/casado34.mod
+  sha: fc35129b044baa64bb2e56f2e101a783cfbc87c3
+  solver: couenne
+  start: 2015-05-28 15:15:37.716886
+  time: 0.0168249607086
+  timeout: False
+  obj: -0.535533905933
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -4.3123209169e-01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.53553391        7 0
+    Couenne: new cutoff value -5.3553390593e-01 (0.004 seconds)
+    Loaded instance "/tmp/tmpPoGhDr.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 11 (-2) rows, 4 (-2) columns and 27 (-4) elements
+    Clp0006I 0  Obj -0.53538035 Primal inf 0.25132226 (3) Dual inf 0.056694068 (1)
+    Clp0006I 4  Obj -0.53894225
+    Clp0000I Optimal - objective value -0.53894225
+    Clp0032I Optimal objective -0.5389422493 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.53894225
+    Cbc0012I Integer solution of -0.53553391 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.53553391        3 0
+    no solution.
+    Clp0000I Optimal - objective value -0.53894225
+    Optimality Based BT: 4 improved bounds
+    Probing: 0 improved bounds
+    Cbc0031I 3 added rows had average density of 2.3333333
+    Cbc0013I At root node, 5 cuts changed objective from -0.53894225 to -0.5355386 in 4 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 10 row cuts average 2.6 elements, 5 column cuts (5 active)
+    Cbc0001I Search completed - best objective -0.5355339059327375, took 8 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         13
+    Linearization cuts added in total:             13  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                            -0.535534
+    Upper bound:                            -0.535534  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: casado/casado35.mod
+  sha: 0e9ea5de6b34b5eb13f0a28c87990a0c8e0a008c
+  solver: couenne
+  start: 2015-05-28 15:15:37.746731
+  time: 0.178910970688
+  timeout: False
+  obj: -13.9223448765
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.1316079850e+01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -9.1528708        8 0.008
+    Loaded instance "/tmp/tmpKq98hn.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           51 (0 integer)
+    
+    Coin0506I Presolve 121 (-30) rows, 22 (-30) columns and 251 (-60) elements
+    Clp0006I 0  Obj -11.314848 Primal inf 563.21582 (80) Dual inf 25.738926 (1)
+    Clp0006I 20  Obj -62.038933
+    Clp0000I Optimal - objective value -62.038933
+    Clp0032I Optimal objective -62.03893314 - 20 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -62.038933
+    NLP Heuristic: NLP0014I             2         OPT -8.9040216        7 0.004
+    no solution.
+    Clp0000I Optimal - objective value -62.038933
+    Optimality Based BT: 0 improved bounds
+    Probing: 7 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 16 added rows had average density of 2
+    Cbc0013I At root node, 16 cuts changed objective from -62.038933 to -32.297959 in 8 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 68 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -1.3827102826e+01 (0.064 seconds)
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -1.3859628418e+01 (0.092 seconds)
+    Couenne: new cutoff value -1.3862214649e+01 (0.092 seconds)
+    Couenne: new cutoff value -1.3862777987e+01 (0.096 seconds)
+    Cbc0012I Integer solution of -13.862778 found by Couenne Rounding NLP after 248 iterations and 2 nodes (0.08 seconds)
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -1.3910988902e+01 (0.112 seconds)
+    Couenne: new cutoff value -1.3922344877e+01 (0.116 seconds)
+    Cbc0012I Integer solution of -13.922345 found by Couenne Rounding NLP after 287 iterations and 3 nodes (0.10 seconds)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -13.92234487653533, took 500 iterations and 22 nodes (0.15 seconds)
+    Cbc0035I Maximum depth 8, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:        151
+    Linearization cuts added in total:            151  (separation time: 0s)
+    Total solve time:                           0.148s (0.148s in branch-and-bound)
+    Lower bound:                             -13.9223
+    Upper bound:                             -13.9223  (gap: 0.00%)
+    Branch-and-bound nodes:                        22
+    Performance of                           FBBT:	      0.004s,       53 runs. fix:          0 shrnk:    3.48717 ubd:          0 2ubd:          0 infeas:          1
+
+- model: casado/casado36.mod
+  sha: 7a8d44d9ab2b5b7786b70fb1032600400e518821
+  solver: couenne
+  start: 2015-05-28 15:15:37.974584
+  time: 0.356184005737
+  timeout: False
+  obj: -0.35
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.1049382716e-01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.35        7 0.004
+    Couenne: new cutoff value -3.5000000000e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmpuYWtqS.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 16 (-2) rows, 4 (-2) columns and 36 (-4) elements
+    Clp0006I 0  Obj -5.6309988 Primal inf 7.158433 (4)
+    Clp0006I 7  Obj -2.9757122
+    Clp0000I Optimal - objective value -2.9757122
+    Clp0032I Optimal objective -2.975712232 - 7 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -2.9757122
+    Cbc0012I Integer solution of -0.35 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.35        3 0
+    no solution.
+    Clp0000I Optimal - objective value -2.9757122
+    Optimality Based BT: 0 improved bounds
+    Probing: 6 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2.25
+    Cbc0013I At root node, 4 cuts changed objective from -2.9757122 to -0.35972002 in 20 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 64 row cuts average 2.4 elements, 20 column cuts (20 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0001I Search completed - best objective -0.3499999999999996, took 1928 iterations and 3198 nodes (0.31 seconds)
+    Cbc0035I Maximum depth 18, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         18
+    Linearization cuts added in total:             18  (separation time: 0s)
+    Total solve time:                           0.312s (0.312s in branch-and-bound)
+    Lower bound:                                -0.35
+    Upper bound:                                -0.35  (gap: 0.00%)
+    Branch-and-bound nodes:                      3198
+    Performance of                           FBBT:	      0.004s,     1767 runs. fix:  0.0619508 shrnk:   0.808283 ubd:          0 2ubd:          0 infeas:          2
+
+- model: casado/casado37.mod
+  sha: 3f426da4e82ae177e19fb792a2c09cd2286d0f8b
+  solver: couenne
+  start: 2015-05-28 15:15:38.351215
+  time: 0.697786092758
+  timeout: False
+  obj: -32.7812612933
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -9.9574136736e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -32.781261        5 0
+    Couenne: new cutoff value -3.2781261293e+01 (0.004 seconds)
+    Loaded instance "/tmp/tmpIGnylf.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 27 (-1) rows, 6 (-1) columns and 58 (-2) elements
+    Clp0006I 0  Obj -32.777883 Primal inf 23.651255 (9) Dual inf 223.60846 (1)
+    Clp0006I 8  Obj -1934.3985
+    Clp0000I Optimal - objective value -1934.3985
+    Clp0032I Optimal objective -1934.398512 - 8 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1934.3985
+    Cbc0012I Integer solution of -32.781261 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1.9684823        7 0.004
+    no solution.
+    Clp0000I Optimal - objective value -1934.3985
+    Optimality Based BT: 2 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -1934.3985 to -968.1835 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 22 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Cbc0001I Search completed - best objective -32.78126129328041, took 2332 iterations and 7470 nodes (0.68 seconds)
+    Cbc0035I Maximum depth 25, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         28
+    Linearization cuts added in total:             28  (separation time: 0s)
+    Total solve time:                           0.684s (0.684s in branch-and-bound)
+    Lower bound:                             -32.7813
+    Upper bound:                             -32.7813  (gap: 0.00%)
+    Branch-and-bound nodes:                      7470
+    Performance of                           FBBT:	      0.024s,     4353 runs. fix:  0.0427775 shrnk:  0.0709831 ubd:          0 2ubd:          0 infeas:         50
+
+- model: casado/casado38.mod
+  sha: 63d74ba290b081dc432c94c224e8c56c99dc6dc5
+  solver: couenne
+  start: 2015-05-28 15:15:39.078488
+  time: 0.454214096069
+  timeout: False
+  obj: 7.00000339308
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 2.5000000000e+02 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 250        7 0
+    Loaded instance "/tmp/tmpCyCVKH.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 13 (0) rows, 5 (0) columns and 28 (0) elements
+    Clp0006I 0  Obj 250.01 Primal inf 167.58627 (7) Dual inf 13.384421 (1)
+    Clp0006I 6  Obj -3130.0598
+    Clp0000I Optimal - objective value -3130.0598
+    Clp0032I Optimal objective -3130.059781 - 6 iterations time 0.002
+    Clp0000I Optimal - objective value -3130.0598
+    NLP Heuristic: NLP0014I             2         OPT 7        9 0.004
+    Couenne: new cutoff value 7.0000000000e+00 (0.012 seconds)
+    solution found, obj. 7
+    Cbc0012I Integer solution of 7 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.01 seconds)
+    Clp0000I Optimal - objective value -3130.0598
+    Optimality Based BT: 0 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from -3130.0598 to -640.35898 in 5 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 6 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0004I Integer solution of 6.9998754 found after 230 iterations and 60 nodes (0.08 seconds)
+    Optimality Based BT: 0 improved bounds
+    Cbc0004I Integer solution of 6.9998523 found after 2085 iterations and 3326 nodes (0.38 seconds)
+    Cbc0001I Search completed - best objective 6.999852254330619, took 2300 iterations and 4056 nodes (0.44 seconds)
+    Cbc0035I Maximum depth 19, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         13
+    Linearization cuts added in total:             13  (separation time: 0s)
+    Total solve time:                            0.44s (0.44s in branch-and-bound)
+    Lower bound:                              6.99985
+    Upper bound:                              6.99985  (gap: 0.00%)
+    Branch-and-bound nodes:                      4056
+    Performance of                           FBBT:	      0.032s,     3029 runs. fix:  0.0614294 shrnk:    1.13681 ubd:          0 2ubd:          0 infeas:        500
+
+- model: casado/casado39.mod
+  sha: 584ba69cbd1faef98b279b92799ec83680e6a0dc
+  solver: couenne
+  start: 2015-05-28 15:15:39.554457
+  time: 8.99533200264
+  timeout: False
+  obj: -0.999998074564
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 2.4000000000e+01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1        6 0.004
+    Couenne: new cutoff value -1.0000000000e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpN_I8JI.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 20 (0) rows, 5 (0) columns and 43 (0) elements
+    Clp0006I 0  Obj -0.9998 Primal inf 100.17124 (5) Dual inf 261.60412 (1)
+    Clp0006I 7  Obj -6313.5749
+    Clp0000I Optimal - objective value -6313.5749
+    Clp0032I Optimal objective -6313.574945 - 7 iterations time 0.002
+    Clp0000I Optimal - objective value -6313.5749
+    Cbc0012I Integer solution of -1 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1        7 0
+    no solution.
+    Clp0000I Optimal - objective value -6313.5749
+    Optimality Based BT: 4 improved bounds
+    Probing: 2 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -6313.5749 to -1342.6324 in 11 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 23 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 3 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0004I Integer solution of -1.0000395 found after 46316 iterations and 52091 nodes (5.28 seconds)
+    Cbc0001I Search completed - best objective -1.000039484910469, took 78411 iterations and 94528 nodes (8.68 seconds)
+    Cbc0035I Maximum depth 29, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         20
+    Linearization cuts added in total:             20  (separation time: 0s)
+    Total solve time:                            8.68s (8.68s in branch-and-bound)
+    Lower bound:                             -1.00004
+    Upper bound:                             -1.00004  (gap: 0.00%)
+    Branch-and-bound nodes:                     94528
+    Performance of                           FBBT:	      0.224s,    68476 runs. fix:  0.0627197 shrnk:   0.459028 ubd:          0 2ubd:          0 infeas:       1550
+
+- model: casado/casado40.mod
+  sha: 5ba9d8bfd4beaac83214a821c66b4edaf898d0fb
+  solver: couenne
+  start: 2015-05-28 15:15:48.601349
+  time: 8.59980511665
+  timeout: False
+  obj: -88.9999615322
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -8.7000000000e+01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -88        7 0.004
+    Couenne: new cutoff value -8.8000000000e+01 (0.008 seconds)
+    Loaded instance "/tmp/tmp5E6dza.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 16 (0) rows, 5 (0) columns and 35 (0) elements
+    Clp0006I 0  Obj -87.9911 Primal inf 2.0456359 (1) Dual inf 44.480591 (1)
+    Clp0006I 5  Obj -1645.125
+    Clp0000I Optimal - objective value -1645.125
+    Clp0032I Optimal objective -1645.125 - 5 iterations time 0.002
+    Clp0000I Optimal - objective value -1645.125
+    Couenne: new cutoff value -8.8669921875e+01 (0.008 seconds)
+    Cbc0012I Integer solution of -88 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -89        5 0.004
+    Couenne: new cutoff value -8.9000000000e+01 (0.012 seconds)
+    solution found, obj. -89
+    Cbc0012I Integer solution of -89 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -1645.125
+    Optimality Based BT: 2 improved bounds
+    Probing: 1 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -1645.125 to -1198.0926 in 11 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 23 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0004I Integer solution of -89.000069 found after 791 iterations and 189 nodes (0.14 seconds)
+    Cbc0004I Integer solution of -89.000121 found after 75839 iterations and 78492 nodes (7.04 seconds)
+    Cbc0004I Integer solution of -89.000136 found after 86461 iterations and 93738 nodes (7.96 seconds)
+    Cbc0004I Integer solution of -89.000149 found after 88431 iterations and 100440 nodes (8.25 seconds)
+    Cbc0001I Search completed - best objective -89.00014854527984, took 88431 iterations and 100440 nodes (8.25 seconds)
+    Cbc0035I Maximum depth 29, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         16
+    Linearization cuts added in total:             16  (separation time: 0s)
+    Total solve time:                           8.248s (8.248s in branch-and-bound)
+    Lower bound:                             -89.0001
+    Upper bound:                             -89.0001  (gap: 0.00%)
+    Branch-and-bound nodes:                    100440
+    Performance of                           FBBT:	       0.26s,    74076 runs. fix:  0.0787433 shrnk:   0.412285 ubd:          0 2ubd:          0 infeas:       2033
+
+- model: hansen/hansen01.mod
+  sha: 512d9f94dcff7eea00081537d9641d2588343826
+  solver: couenne
+  start: 2015-05-28 15:15:57.248082
+  time: 0.0903680324554
+  timeout: False
+  obj: 29763.2331549
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -2.1999559847e+03 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -29763.233        9 0.004
+    Couenne: new cutoff value -2.9763233333e+04 (0.008 seconds)
+    Loaded instance "/tmp/tmpco3_0q.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 31 (0) rows, 7 (0) columns and 67 (0) elements
+    Clp0006I 0  Obj -29763.223 Primal inf 263.47229 (9) Dual inf 21.205703 (1)
+    Clp0006I 12  Obj -56909.853
+    Clp0000I Optimal - objective value -56909.853
+    Clp0032I Optimal objective -56909.85343 - 12 iterations time 0.002
+    Clp0000I Optimal - objective value -56909.853
+    Cbc0012I Integer solution of -29763.233 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -29763.233        4 0
+    solution found, obj. -29763.2
+    Cbc0012I Integer solution of -29763.233 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -56909.853
+    Optimality Based BT: 1 improved bounds
+    Probing: 2 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 6 added rows had average density of 2
+    Cbc0013I At root node, 6 cuts changed objective from -56909.853 to -35087.017 in 20 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 78 row cuts average 2.0 elements, 22 column cuts (22 active)
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0004I Integer solution of -29763.235 found after 327 iterations and 51 nodes (0.05 seconds)
+    Optimality Based BT: 2 improved bounds
+    Cbc0004I Integer solution of -29763.235 found after 394 iterations and 84 nodes (0.06 seconds)
+    Cbc0001I Search completed - best objective -29763.23497931098, took 428 iterations and 117 nodes (0.07 seconds)
+    Cbc0035I Maximum depth 21, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         31
+    Linearization cuts added in total:             31  (separation time: 0s)
+    Total solve time:                           0.072s (0.072s in branch-and-bound)
+    Lower bound:                             -29763.2
+    Upper bound:                             -29763.2  (gap: 0.00%)
+    Branch-and-bound nodes:                       117
+
+- model: hansen/hansen02.mod
+  sha: b66c6ec8298dedd9f0c73f7df23229b6481f43d9
+  solver: couenne
+  start: 2015-05-28 15:15:57.374003
+  time: 0.0224049091339
+  timeout: False
+  obj: 1.89959934915
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.8872121742e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.8995993        8 0.004
+    Couenne: new cutoff value -1.8995993492e+00 (0.012 seconds)
+    Loaded instance "/tmp/tmpVRj57T.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 7 (-1) rows, 4 (-1) columns and 15 (-2) elements
+    Clp0006I 0  Obj -1.8993094 Primal inf 0.016299543 (2) Dual inf 0.999999 (1)
+    Clp0006I 5  Obj -1.9001509
+    Clp0000I Optimal - objective value -1.9001509
+    Clp0032I Optimal objective -1.900150912 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1.9001509
+    Cbc0012I Integer solution of -1.8995993 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1.8995993        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value -1.9001509
+    Optimality Based BT: 0 improved bounds
+    Probing: 5 improved bounds
+    Cbc0031I 3 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -1.9001509 to -1.8996066 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 4 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Cbc0001I Search completed - best objective -1.899599349152113, took 0 iterations and 0 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          8
+    Linearization cuts added in total:              8  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                              -1.8996
+    Upper bound:                              -1.8996  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: hansen/hansen03.mod
+  sha: 4873bb7eb6873de8033547874f1b67ed4ab6a77c
+  solver: couenne
+  start: 2015-05-28 15:15:57.419077
+  time: 0.0933711528778
+  timeout: False
+  obj: 12.0312494422
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.7384054919e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -12.031249        8 0
+    Couenne: new cutoff value -1.2031249442e+01 (0.004 seconds)
+    Loaded instance "/tmp/tmpAZeoTD.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           11 (0 integer)
+    
+    Coin0506I Presolve 19 (-7) rows, 7 (-5) columns and 42 (-14) elements
+    Clp0006I 0  Obj -12.029946 Primal inf 14.086697 (5) Dual inf 6.7070118 (1)
+    Clp0006I 11  Obj -15
+    Clp0000I Optimal - objective value -15
+    Clp0032I Optimal objective -15 - 11 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -15
+    Cbc0012I Integer solution of -12.031249 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -3.7324782        4 0.004
+    no solution.
+    Clp0000I Optimal - objective value -15
+    Optimality Based BT: 2 improved bounds
+    Probing: 0 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0013I At root node, 0 cuts changed objective from -15 to -15 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 0 row cuts average 0.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -12.03124944216714, took 208 iterations and 24 nodes (0.08 seconds)
+    Cbc0035I Maximum depth 5, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         26
+    Linearization cuts added in total:             26  (separation time: 0s)
+    Total solve time:                           0.076s (0.076s in branch-and-bound)
+    Lower bound:                             -12.0312
+    Upper bound:                             -12.0312  (gap: 0.00%)
+    Branch-and-bound nodes:                        24
+    Performance of                           FBBT:	      0.004s,       53 runs. fix:          0 shrnk:    1.20641 ubd:          0 2ubd:          0 infeas:          1
+
+- model: hansen/hansen04.mod
+  sha: b2cc5f4eb0cbb120f458087b19affd5241f1b645
+  solver: couenne
+  start: 2015-05-28 15:15:57.547135
+  time: 0.500358104706
+  timeout: False
+  obj: 3.8504507088
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -3.8494244751e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -3.8504507        6 0.004
+    Couenne: new cutoff value -3.8504507088e+00 (0.008 seconds)
+    Loaded instance "/tmp/tmpsrJI0C.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 17 (-2) rows, 5 (-2) columns and 39 (-4) elements
+    Clp0006I 0  Obj -3.8499657 Primal inf 6.8483113 (9) Dual inf 1.0906193 (1)
+    Clp0006I 5  Obj -6.8333115
+    Clp0000I Optimal - objective value -6.8333115
+    Clp0032I Optimal objective -6.833311543 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -6.8333115
+    Cbc0012I Integer solution of -3.8504507 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -3.8504507        4 0.004
+    no solution.
+    Clp0000I Optimal - objective value -6.8333115
+    Optimality Based BT: 2 improved bounds
+    Probing: 5 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2.5
+    Cbc0013I At root node, 4 cuts changed objective from -6.8333115 to -3.8888894 in 20 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 60 row cuts average 2.4 elements, 21 column cuts (21 active)
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -3.85045070880022, took 2320 iterations and 4606 nodes (0.47 seconds)
+    Cbc0035I Maximum depth 20, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         19
+    Linearization cuts added in total:             19  (separation time: 0s)
+    Total solve time:                           0.468s (0.468s in branch-and-bound)
+    Lower bound:                             -3.85045
+    Upper bound:                             -3.85045  (gap: 0.00%)
+    Branch-and-bound nodes:                      4606
+    Performance of                           FBBT:	      0.028s,     2434 runs. fix:  0.0334641 shrnk:   0.249317 ubd:          0 2ubd:          0 infeas:          9
+
+- model: hansen/hansen05.mod
+  sha: 047a15d35063d0e3c5f0bd8fd9844ba8f4d1f8a9
+  solver: couenne
+  start: 2015-05-28 15:15:58.076688
+  time: 0.0204300880432
+  timeout: False
+  obj: 1.48907253869
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -3.9237449203e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.1501731       10 0.004
+    Couenne: new cutoff value -1.1501731330e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpfSg5v2.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 8 (-3) rows, 3 (-3) columns and 20 (-6) elements
+    Clp0006I 0  Obj -1.1499581 Primal inf 7.4244521 (2) Dual inf 0.48304489 (1)
+    Clp0006I 3  Obj -2.0796731
+    Clp0000I Optimal - objective value -2.0796731
+    Clp0032I Optimal objective -2.079673095 - 3 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -2.0796731
+    Cbc0012I Integer solution of -1.1501731 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1.4890725        4 0
+    Couenne: new cutoff value -1.4890725387e+00 (0.004 seconds)
+    solution found, obj. -1.48907
+    Cbc0012I Integer solution of -1.4890725 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -2.0796731
+    Optimality Based BT: 0 improved bounds
+    Probing: 4 improved bounds
+    Cbc0031I 3 added rows had average density of 2.3333333
+    Cbc0013I At root node, 5 cuts changed objective from -2.0796731 to -1.4890755 in 4 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 9 row cuts average 2.4 elements, 4 column cuts (4 active)
+    Cbc0001I Search completed - best objective -1.489072538689604, took 7 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         11
+    Linearization cuts added in total:             11  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                             -1.48907
+    Upper bound:                             -1.48907  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: hansen/hansen06.mod
+  sha: 99c1e94e960262335e236a4d4f82ef8832f8d3d8
+  solver: couenne
+  start: 2015-05-28 15:15:58.120822
+  time: 0.0360789299011
+  timeout: False
+  obj: 0.824239398476
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -0.0000000000e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.8242394        9 0.004
+    Couenne: new cutoff value -8.2423939848e-01 (0.008 seconds)
+    Loaded instance "/tmp/tmpswMPCD.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            7 (0 integer)
+    
+    Coin0506I Presolve 20 (-2) rows, 6 (-2) columns and 45 (-4) elements
+    Clp0006I 0  Obj -0.82405697 Primal inf 3.1390289 (10) Dual inf 0.999999 (1)
+    Clp0006I 10  Obj -0.9136791
+    Clp0000I Optimal - objective value -0.9136791
+    Clp0032I Optimal objective -0.9136790991 - 10 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.9136791
+    Cbc0012I Integer solution of -0.8242394 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.8242394        3 0
+    no solution.
+    Clp0000I Optimal - objective value -0.9136791
+    Optimality Based BT: 2 improved bounds
+    Probing: 5 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 5 added rows had average density of 2.4
+    Cbc0013I At root node, 5 cuts changed objective from -0.9136791 to -0.82433053 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 42 row cuts average 2.3 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.8242393984760766, took 61 iterations and 4 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         22
+    Linearization cuts added in total:             22  (separation time: 0s)
+    Total solve time:                            0.02s (0.02s in branch-and-bound)
+    Lower bound:                            -0.824239
+    Upper bound:                            -0.824239  (gap: 0.00%)
+    Branch-and-bound nodes:                         4
+
+- model: hansen/hansen07.mod
+  sha: d0cd05090d7a1d657f3cd7e7027509a404147950
+  solver: couenne
+  start: 2015-05-28 15:15:58.197632
+  time: 0.0224549770355
+  timeout: False
+  obj: 1.60130754649
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.5419716345e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.6013075        5 0.004
+    Couenne: new cutoff value -1.6013075465e+00 (0.008 seconds)
+    Loaded instance "/tmp/tmpq9eZsm.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 15 (-1) rows, 5 (-1) columns and 33 (-2) elements
+    Clp0006I 0  Obj -1.6010474 Primal inf 6.8201037 (4) Dual inf 0.42301327 (1)
+    Clp0006I 6  Obj -1.6539153
+    Clp0000I Optimal - objective value -1.6539153
+    Clp0032I Optimal objective -1.653915285 - 6 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1.6539153
+    Cbc0012I Integer solution of -1.6013075 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1.6013075        4 0
+    solution found, obj. -1.60131
+    Clp0000I Optimal - objective value -1.6539153
+    Optimality Based BT: 2 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -1.6539153 to -1.6013763 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 23 row cuts average 2.0 elements, 12 column cuts (12 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -1.601307546494395, took 35 iterations and 4 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         16
+    Linearization cuts added in total:             16  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                             -1.60131
+    Upper bound:                             -1.60131  (gap: 0.00%)
+    Branch-and-bound nodes:                         4
+
+- model: hansen/hansen08.mod
+  sha: 33b0ef65835762c5ab9adcfd8bf9fc0126baf0ab
+  solver: couenne
+  start: 2015-05-28 15:15:58.242266
+  time: 0.0463678836823
+  timeout: False
+  obj: 14.5080079272
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.4582324132e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -2.9276245        6 0
+    Couenne: new cutoff value -2.9276245423e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpimVHiM.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:           11 (0 integer)
+    
+    Coin0506I Presolve 21 (-5) rows, 7 (-5) columns and 46 (-10) elements
+    Clp0006I 0  Obj -2.9272318 Primal inf 22.48029 (6) Dual inf 4.048526 (1)
+    Clp0006I 9  Obj -15
+    Clp0000I Optimal - objective value -15
+    Clp0032I Optimal objective -15 - 9 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -15
+    Cbc0012I Integer solution of -2.9276245 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -3.8473331        6 0
+    Couenne: new cutoff value -3.8473331394e+00 (0.008 seconds)
+    solution found, obj. -3.84733
+    Cbc0012I Integer solution of -3.8473331 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -15
+    Optimality Based BT: 2 improved bounds
+    Probing: 2 improved bounds
+    Couenne: new cutoff value -4.0400152995e+00 (0.012 seconds)
+    NLP Heuristic: Couenne: new cutoff value -1.4508007927e+01 (0.012 seconds)
+    solution found, obj. -14.508
+    Cbc0012I Integer solution of -14.508008 found by Couenne Rounding NLP after 2 iterations and 0 nodes (0.00 seconds)
+    Cbc0031I 1 added rows had average density of 2
+    Cbc0013I At root node, 1 cuts changed objective from -15 to -15 in 2 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 2 row cuts average 2.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -14.50800792719503, took 122 iterations and 16 nodes (0.04 seconds)
+    Cbc0035I Maximum depth 3, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         26
+    Linearization cuts added in total:             26  (separation time: 0s)
+    Total solve time:                            0.04s (0.04s in branch-and-bound)
+    Lower bound:                              -14.508
+    Upper bound:                              -14.508  (gap: 0.00%)
+    Branch-and-bound nodes:                        16
+
+- model: hansen/hansen09.mod
+  sha: 787812c6fcd1c6817d48381ba6b08376827c6386
+  solver: couenne
+  start: 2015-05-28 15:15:58.318858
+  time: 0.0310759544373
+  timeout: False
+  obj: 1.90596111872
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 2.7112185559e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.2159822        5 0.004
+    Couenne: new cutoff value -1.2159821751e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpcPzfy5.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 7 (-3) rows, 4 (-1) columns and 15 (-6) elements
+    Clp0006I 0  Obj -1.2157606 Primal inf 2.2183965 (2) Dual inf 1.7811196 (1)
+    Clp0006I 4  Obj -2
+    Clp0000I Optimal - objective value -2
+    Clp0032I Optimal objective -2 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -2
+    Cbc0012I Integer solution of -1.2159822 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.22333666        3 0
+    no solution.
+    Clp0000I Optimal - objective value -2
+    Optimality Based BT: 2 improved bounds
+    Probing: 1 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0013I At root node, 0 cuts changed objective from -2 to -2 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 0 row cuts average 0.0 elements, 2 column cuts (2 active)
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Couenne: new cutoff value -1.8401820966e+00 (0.016 seconds)
+    Couenne: new cutoff value -1.9058074174e+00 (0.016 seconds)
+    Couenne: new cutoff value -1.9059611187e+00 (0.02 seconds)
+    Cbc0012I Integer solution of -1.9059611 found by Couenne Rounding NLP after 22 iterations and 2 nodes (0.02 seconds)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -1.905961118715785, took 43 iterations and 6 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         10
+    Linearization cuts added in total:             10  (separation time: 0s)
+    Total solve time:                            0.02s (0.02s in branch-and-bound)
+    Lower bound:                             -1.90596
+    Upper bound:                             -1.90596  (gap: 0.00%)
+    Branch-and-bound nodes:                         6
+
+- model: hansen/hansen10.mod
+  sha: 3ffa5101034760e6341e0610bc735f17c95efde6
+  solver: couenne
+  start: 2015-05-28 15:15:58.363339
+  time: 0.0212121009827
+  timeout: False
+  obj: 7.91672737159
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 4.7946213733e+00 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.8197057       15 0.004
+    Couenne: new cutoff value -1.8197057412e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpbvP1jZ.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 7 (-2) rows, 3 (-1) columns and 18 (-4) elements
+    Clp0006I 0  Obj -1.8194238 Primal inf 3.0298078 (3) Dual inf 3.0081494 (1)
+    Clp0006I 4  Obj -8.4073968
+    Clp0000I Optimal - objective value -8.4073968
+    Clp0032I Optimal objective -8.407396793 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -8.4073968
+    Couenne: new cutoff value -7.1524624554e+00 (0.008 seconds)
+    Cbc0012I Integer solution of -1.8197057 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -7.9167274        3 0
+    Couenne: new cutoff value -7.9167273716e+00 (0.008 seconds)
+    solution found, obj. -7.91673
+    Cbc0012I Integer solution of -7.9167274 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -8.4073968
+    Optimality Based BT: 0 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 3 added rows had average density of 2.3333333
+    Cbc0013I At root node, 3 cuts changed objective from -8.4073968 to -7.9167609 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 22 row cuts average 2.1 elements, 10 column cuts (10 active)
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -7.916727371587783, took 29 iterations and 2 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          9
+    Linearization cuts added in total:              9  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                             -7.91673
+    Upper bound:                             -7.91673  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: hansen/hansen11.mod
+  sha: 6f9c06d58d2be1b62070a643f90dcd35b6cc8767
+  solver: couenne
+  start: 2015-05-28 15:15:58.407729
+  time: 0.0305058956146
+  timeout: False
+  obj: 1.5
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.4149122678e+00 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.5        6 0
+    Couenne: new cutoff value -1.5000000000e+00 (0 seconds)
+    Loaded instance "/tmp/tmpwHtsjn.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 2 (-4) rows, 2 (-3) columns and 4 (-9) elements
+    Clp0006I 0  Obj -1.49975 Dual inf 0.999999 (1)
+    Clp0006I 1  Obj -2.646281
+    Clp0000I Optimal - objective value -2.646281
+    Clp0032I Optimal objective -2.646281026 - 1 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -2.646281
+    Cbc0012I Integer solution of -1.5 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1.5        5 0
+    no solution.
+    Clp0000I Optimal - objective value -2.646281
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 1 added rows had average density of 2
+    Cbc0013I At root node, 1 cuts changed objective from -2.646281 to -1.6035547 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 10 row cuts average 2.0 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0001I Search completed - best objective -1.5, took 64 iterations and 8 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          6
+    Linearization cuts added in total:              6  (separation time: 0s)
+    Total solve time:                            0.02s (0.02s in branch-and-bound)
+    Lower bound:                                 -1.5
+    Upper bound:                                 -1.5  (gap: 0.00%)
+    Branch-and-bound nodes:                         8
+
+- model: hansen/hansen12.mod
+  sha: a4f96ee671f9eff0a03306bcf9ee991a0abdf70e
+  solver: couenne
+  start: 2015-05-28 15:15:58.451525
+  time: 0.0213952064514
+  timeout: False
+  obj: 1.0
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -9.9999619115e-01 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 0.99501346        4 0
+    Loaded instance "/tmp/tmpsLtCmU.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 21 (0) rows, 6 (0) columns and 43 (0) elements
+    Clp0006I 0  Obj -0.99979619 Primal inf 2.4697432 (2) Dual inf 3.1776248 (1)
+    Clp0006I 6  Obj -1.5939413
+    Clp0000I Optimal - objective value -1.5939413
+    Clp0032I Optimal objective -1.593941284 - 6 iterations time 0.002
+    Clp0000I Optimal - objective value -1.5939413
+    NLP Heuristic: NLP0014I             2         OPT -1        8 0.004
+    Couenne: new cutoff value -1.0000000000e+00 (0.004 seconds)
+    solution found, obj. -1
+    Cbc0012I Integer solution of -1 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -1.5939413
+    Optimality Based BT: 0 improved bounds
+    Probing: 1 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from -1.5939413 to -1.0742427 in 3 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 2 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -1, took 6 iterations and 2 nodes (0.02 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         21
+    Linearization cuts added in total:             21  (separation time: 0s)
+    Total solve time:                           0.016s (0.016s in branch-and-bound)
+    Lower bound:                                   -1
+    Upper bound:                                   -1  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: hansen/hansen13.mod
+  sha: 3d62618be6ed245a3912e388742928269ee647f6
+  solver: couenne
+  start: 2015-05-28 15:15:58.495227
+  time: 0.0122950077057
+  timeout: False
+  obj: 1.58740105197
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -1.5365407196e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -1.5874011        6 0
+    Couenne: new cutoff value -1.5874010520e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpnC0sv6.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 19 (-1) rows, 5 (-1) columns and 39 (-2) elements
+    Clp0006I 0  Obj -1.5871423 Primal inf 0.17037322 (6) Dual inf 0.999999 (1)
+    Clp0006I 12  Obj -1.587471
+    Clp0000I Optimal - objective value -1.587471
+    Clp0006I 0  Obj -1.587471 Primal inf 7.4178461e-07 (1) Dual inf 1.2525569e+10 (2)
+    Clp0006I 2  Obj -1.5874704
+    Clp0000I Optimal - objective value -1.5874704
+    Clp0032I Optimal objective -1.587470381 - 14 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -1.5874704
+    Cbc0012I Integer solution of -1.5874011 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -1.5874011        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value -1.5874704
+    Optimality Based BT: 2 improved bounds
+    Probing: 3 improved bounds
+    Cbc0031I 1 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from -1.5874704 to -1.5874086 in 2 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 6 row cuts average 2.0 elements, 3 column cuts (3 active)
+    Cbc0001I Search completed - best objective -1.5874010519682, took 2 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         20
+    Linearization cuts added in total:             20  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                              -1.5874
+    Upper bound:                              -1.5874  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: hansen/hansen14.mod
+  sha: e55d7194c7db27aea06eb49b8bde2ddcaa3f9da7
+  solver: couenne
+  start: 2015-05-28 15:15:58.522621
+  time: 0.011470079422
+  timeout: False
+  obj: 0.788685387409
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 6.6295168571e-17 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.29014114        6 0
+    Couenne: new cutoff value -2.9014113958e-01 (0.004 seconds)
+    Loaded instance "/tmp/tmp2TqI2r.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 13 (-4) rows, 4 (-3) columns and 30 (-8) elements
+    Clp0006I 0  Obj -0.29001213 Primal inf 5.8073755 (7) Dual inf 1.37772 (1)
+    Clp0006I 5  Obj -0.8872163
+    Clp0000I Optimal - objective value -0.8872163
+    Clp0032I Optimal objective -0.8872162985 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.8872163
+    Couenne: new cutoff value -7.3072937347e-01 (0.004 seconds)
+    Cbc0012I Integer solution of -0.29014114 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.78868539        3 0.004
+    Couenne: new cutoff value -7.8868538741e-01 (0.008 seconds)
+    solution found, obj. -0.788685
+    Cbc0012I Integer solution of -0.78868539 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -0.8872163
+    Optimality Based BT: 0 improved bounds
+    Probing: 5 improved bounds
+    Cbc0031I 4 added rows had average density of 2.25
+    Cbc0013I At root node, 5 cuts changed objective from -0.8872163 to -0.78869389 in 1 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 5 row cuts average 2.4 elements, 1 column cuts (1 active)
+    Cbc0001I Search completed - best objective -0.7886853874086724, took 0 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         17
+    Linearization cuts added in total:             17  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                            -0.788685
+    Upper bound:                            -0.788685  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: hansen/hansen15.mod
+  sha: dda9fb47e9e9c096f5ec9c9dbe3fcb7ea292906a
+  solver: couenne
+  start: 2015-05-28 15:15:58.550232
+  time: 0.01433801651
+  timeout: False
+  obj: 0.0355339059327
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 6.0000000000e+00 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0.035533906       12 0.004
+    Couenne: new cutoff value -3.5533905933e-02 (0.008 seconds)
+    Loaded instance "/tmp/tmpmAQdR_.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            5 (0 integer)
+    
+    Coin0506I Presolve 11 (-2) rows, 4 (-2) columns and 27 (-4) elements
+    Clp0006I 0  Obj -0.035430353 Primal inf 0.25458094 (3) Dual inf 0.054326329 (1)
+    Clp0006I 4  Obj -0.039547306
+    Clp0000I Optimal - objective value -0.039547306
+    Clp0032I Optimal objective -0.03954730629 - 4 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -0.039547306
+    Cbc0012I Integer solution of -0.035533906 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -0.035533906        3 0
+    no solution.
+    Clp0000I Optimal - objective value -0.039547306
+    Optimality Based BT: 3 improved bounds
+    Probing: 0 improved bounds
+    Cbc0031I 3 added rows had average density of 2.3333333
+    Cbc0013I At root node, 6 cuts changed objective from -0.039547306 to -0.035536895 in 4 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 12 row cuts average 2.7 elements, 5 column cuts (5 active)
+    Cbc0001I Search completed - best objective -0.03553390593273768, took 7 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         13
+    Linearization cuts added in total:             13  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                           -0.0355339
+    Upper bound:                           -0.0355339  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: hansen/hansen16.mod
+  sha: 2343036511d7ed45ccbff24f67093992011b7562
+  solver: couenne
+  start: 2015-05-28 15:15:58.577894
+  time: 0.0124797821045
+  timeout: False
+  obj: -7.51592415308
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 1.9000000000e+01 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 7.5159242        6 0
+    Couenne: new cutoff value 7.5159241531e+00 (0.004 seconds)
+    Loaded instance "/tmp/tmpygp6xO.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            6 (0 integer)
+    
+    Coin0506I Presolve 19 (-2) rows, 5 (-2) columns and 39 (-4) elements
+    Clp0006I 0  Obj 6.8204683 Primal inf 0.96068703 (12)
+    Clp0006I 10  Obj 7.5156319
+    Clp0000I Optimal - objective value 7.5156319
+    Clp0032I Optimal objective 7.515631929 - 10 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value 7.5156319
+    Cbc0012I Integer solution of 7.5159242 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT 7.5159242        3 0.004
+    no solution.
+    Clp0000I Optimal - objective value 7.5156319
+    Optimality Based BT: 3 improved bounds
+    Probing: 1 improved bounds
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 4 cuts changed objective from 7.5156319 to 7.515923 in 4 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 12 row cuts average 2.0 elements, 5 column cuts (5 active)
+    Cbc0001I Search completed - best objective 7.515924153082324, took 7 iterations and 0 nodes (0.00 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         21
+    Linearization cuts added in total:             21  (separation time: 0s)
+    Total solve time:                           0.004s (0.004s in branch-and-bound)
+    Lower bound:                              7.51592
+    Upper bound:                              7.51592  (gap: 0.00%)
+    Branch-and-bound nodes:                         0
+
+- model: hansen/hansen17.mod
+  sha: 7971aa55c5f9abf455c16a114db4580138805cb1
+  solver: couenne
+  start: 2015-05-28 15:15:58.605509
+  time: 0.51569890976
+  timeout: False
+  obj: -7.00000339308
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value 2.5000000000e+02 (0.004 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT 250        7 0
+    Loaded instance "/tmp/tmp7Dd_Fy.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            4 (0 integer)
+    
+    Coin0506I Presolve 13 (0) rows, 5 (0) columns and 28 (0) elements
+    Clp0006I 0  Obj 250.01 Primal inf 167.58627 (7) Dual inf 13.384421 (1)
+    Clp0006I 6  Obj -3130.0598
+    Clp0000I Optimal - objective value -3130.0598
+    Clp0032I Optimal objective -3130.059781 - 6 iterations time 0.002
+    Clp0000I Optimal - objective value -3130.0598
+    NLP Heuristic: NLP0014I             2         OPT 7        9 0.004
+    Couenne: new cutoff value 7.0000000000e+00 (0.012 seconds)
+    solution found, obj. 7
+    Cbc0012I Integer solution of 7 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -3130.0598
+    Optimality Based BT: 0 improved bounds
+    Probing: 3 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from -3130.0598 to -640.35898 in 5 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 6 row cuts average 2.0 elements, 1 column cuts (1 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 2 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Cbc0004I Integer solution of 6.9998754 found after 230 iterations and 60 nodes (0.08 seconds)
+    Optimality Based BT: 0 improved bounds
+    Cbc0004I Integer solution of 6.9998523 found after 2085 iterations and 3326 nodes (0.43 seconds)
+    Cbc0001I Search completed - best objective 6.999852254330619, took 2300 iterations and 4056 nodes (0.49 seconds)
+    Cbc0035I Maximum depth 19, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         13
+    Linearization cuts added in total:             13  (separation time: 0s)
+    Total solve time:                           0.496s (0.496s in branch-and-bound)
+    Lower bound:                              6.99985
+    Upper bound:                              6.99985  (gap: 0.00%)
+    Branch-and-bound nodes:                      4056
+    Performance of                           FBBT:	      0.024s,     3029 runs. fix:  0.0614294 shrnk:    1.13681 ubd:          0 2ubd:          0 infeas:        500
+
+- model: hansen/hansen18.mod
+  sha: cb3e1a4f483ad7836da4c4ca8c41849d75e371c1
+  solver: couenne
+  start: 2015-05-28 15:15:59.134602
+  time: 0.00417017936707
+  timeout: False
+  obj: -4.0
+  solve_result: failure
+  solve_message: |
+    ?
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: *** Error: ifnl not implemented
+
+- model: hansen/hansen19.mod
+  sha: c33e1aace5ee04a8bfa784cee97d2f6d6cdf628f
+  solver: couenne
+  start: 2015-05-28 15:15:59.149402
+  time: 0.0137279033661
+  timeout: False
+  obj: 7.81567454298
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -4.5695191936e+00 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -5.7212794        8 0
+    Couenne: new cutoff value -5.7212794406e+00 (0 seconds)
+    Loaded instance "/tmp/tmpGcx152.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            3 (0 integer)
+    
+    Coin0506I Presolve 5 (-1) rows, 3 (-1) columns and 11 (-2) elements
+    Clp0006I 0  Obj -5.7206073 Primal inf 0.29037939 (1) Dual inf 2.6145665 (1)
+    Clp0006I 2  Obj -7.9355423
+    Clp0000I Optimal - objective value -7.9355423
+    Clp0032I Optimal objective -7.935542332 - 2 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -7.9355423
+    Couenne: new cutoff value -7.7994255393e+00 (0 seconds)
+    Cbc0012I Integer solution of -5.7212794 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    NLP Heuristic: NLP0014I             2         OPT -7.8156745        3 0.004
+    Couenne: new cutoff value -7.8156745430e+00 (0.004 seconds)
+    solution found, obj. -7.81567
+    Cbc0012I Integer solution of -7.8156745 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -7.9355423
+    Optimality Based BT: 1 improved bounds
+    Probing: 4 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 2 added rows had average density of 2
+    Cbc0013I At root node, 2 cuts changed objective from -7.9355423 to -7.8156988 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 20 row cuts average 2.0 elements, 11 column cuts (11 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -7.815674542981391, took 24 iterations and 2 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:          6
+    Linearization cuts added in total:              6  (separation time: 0s)
+    Total solve time:                           0.008s (0.008s in branch-and-bound)
+    Lower bound:                             -7.81567
+    Upper bound:                             -7.81567  (gap: 0.00%)
+    Branch-and-bound nodes:                         2
+
+- model: hansen/hansen20.mod
+  sha: 174f4f3f29b63affedf112cb25d9f9c672828694
+  solver: couenne
+  start: 2015-05-28 15:15:59.176180
+  time: 0.0259900093079
+  timeout: False
+  obj: 0.0634905289364
+  solve_result: solved
+  solve_message: |
+    
+    couenne: Optimal
+  output: |
+    Couenne 0.5.3 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+    Mailing list: couenne@list.coin-or.org
+    Instructions: http://www.coin-or.org/Couenne
+    couenne: 
+    ANALYSIS TEST: Couenne: new cutoff value -0.0000000000e+00 (0 seconds)
+    NLP0012I 
+                  Num      Status      Obj             It       time                 Location
+    NLP0014I             1         OPT -0        7 0
+    Loaded instance "/tmp/tmp1GgzrW.nl"
+    Constraints:            0
+    Variables:              1 (0 integer)
+    Auxiliaries:            7 (0 integer)
+    
+    Coin0506I Presolve 18 (-3) rows, 5 (-3) columns and 40 (-5) elements
+    Clp0006I 0  Obj 0.0001 Primal inf 6.936841 (9) Dual inf 45.294399 (1)
+    Clp0006I 5  Obj -8.4191756
+    Clp0000I Optimal - objective value -8.4191756
+    Clp0032I Optimal objective -8.419175632 - 5 iterations time 0.002, Presolve 0.00
+    Clp0000I Optimal - objective value -8.4191756
+    NLP Heuristic: NLP0014I             2         OPT -0.063490529        6 0
+    Couenne: new cutoff value -6.3490528936e-02 (0.004 seconds)
+    solution found, obj. -0.0634905
+    Cbc0012I Integer solution of -0.063490529 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+    Clp0000I Optimal - objective value -8.4191756
+    Optimality Based BT: 0 improved bounds
+    Probing: 7 improved bounds
+    NLP Heuristic: no solution.
+    Cbc0031I 4 added rows had average density of 2.25
+    Cbc0013I At root node, 4 cuts changed objective from -8.4191756 to -0.063937665 in 10 passes
+    Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 45 row cuts average 2.4 elements, 10 column cuts (10 active)
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Optimality Based BT: 1 improved bounds
+    Optimality Based BT: 0 improved bounds
+    Cbc0001I Search completed - best objective -0.06349052893643989, took 80 iterations and 6 nodes (0.01 seconds)
+    Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+    
+     	"Finished"
+    
+    Linearization cuts added at root node:         21
+    Linearization cuts added in total:             21  (separation time: 0s)
+    Total solve time:                           0.012s (0.012s in branch-and-bound)
+    Lower bound:                           -0.0634905
+    Upper bound:                           -0.0634905  (gap: 0.00%)
+    Branch-and-bound nodes:                         6
+    Performance of                           FBBT:	      0.004s,       22 runs. fix:          0 shrnk:    1.72638 ubd:          0 2ubd:          0 infeas:          0
+

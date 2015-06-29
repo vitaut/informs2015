@@ -1,0 +1,1080 @@
+- model: casado/casado01.mod
+  sha: d83bc5f2a89421d937b9d2ea8f9053d822231d4d
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.219586
+  time: 0.0150439739227
+  timeout: False
+  obj: -0.99113461363
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.9911346136299205
+    38 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado02.mod
+  sha: 12dd414a720f2526b44e1501b692157882bcb668
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.247178
+  time: 0.00576996803284
+  timeout: False
+  obj: 3.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 3
+    44 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado03.mod
+  sha: 99d42a9aa5d854a1a395b4f8ea9a643daf8fde26
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.266195
+  time: 0.00568103790283
+  timeout: False
+  obj: 3.11027518097e-21
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 3.1102751809697355e-21
+    58 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado04.mod
+  sha: d66580bf3bc203b1138b9d173097ab4504e79b70
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.284797
+  time: 0.00668692588806
+  timeout: False
+  obj: -8.15878229107
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -8.158782291070914
+    77 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado05.mod
+  sha: f0d8b96dddcb361e84f9825293bd6088c36fbe87
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.304063
+  time: 0.00686597824097
+  timeout: False
+  obj: -2.12300945263e-81
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -2.1230094526288645e-81
+    11 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado06.mod
+  sha: 8ffec35dcaa8d8ca6eeddc59a9ecf138b7c2f037
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.324048
+  time: 0.0069317817688
+  timeout: False
+  obj: -0.600596653446
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.6005966534456231
+    74 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado07.mod
+  sha: bb04871d5da5de949efa2154864aecbad3b3d543
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.343721
+  time: 0.00626087188721
+  timeout: False
+  obj: -6.26287209418
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -6.26287209417799
+    80 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado08.mod
+  sha: 450c72b034d07c260f82132eeb2c59859b58c6cb
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.363142
+  time: 0.00668001174927
+  timeout: False
+  obj: 2.43568443768
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 2.435684437677435
+    77 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado09.mod
+  sha: 2d451fed50dde5eb4bff6677a44ae613a12af5c8
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.384158
+  time: 0.00867199897766
+  timeout: False
+  obj: 0.960733666696
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.9607336666963492
+    49 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado10.mod
+  sha: cd43aa39c11f9134d7f045670787823eb8a6e242
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.405982
+  time: 0.0089328289032
+  timeout: False
+  obj: -0.0238162350432
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.023816235043159485
+    47 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado11.mod
+  sha: 94b1681f6bcf7d8288a8c3832c96badec54d79b1
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.428126
+  time: 0.00853991508484
+  timeout: False
+  obj: -3.72127944059
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -3.721279440588196
+    73 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado12.mod
+  sha: bca9f82a4cbc74df6ff3dfa2e80be5e2488327ee
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.449941
+  time: 0.00871515274048
+  timeout: False
+  obj: -7.04744407414
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -7.047444074144371
+    39 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado13.mod
+  sha: 0e60baafb8c9ab27cdb0aa94e5a97752d2934bbb
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.472142
+  time: 0.00866794586182
+  timeout: False
+  obj: -4.60130754649
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -4.601307546494395
+    45 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado14.mod
+  sha: 77bba92fabd5088fe87731f2c2108203ee63c2ce
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.494026
+  time: 0.00847601890564
+  timeout: False
+  obj: -0.141100488473
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.14110048847329137
+    69 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado15.mod
+  sha: b1d5ca6cda21bd8c8d2ce2ffe5b018d3f4ede83f
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.516220
+  time: 0.00818109512329
+  timeout: False
+  obj: 8.41229847325
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 8.41229847324674
+    68 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado16.mod
+  sha: 4a9d5ee4d82c9003035d42dbd81df18c303fc466
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.537785
+  time: 0.00786781311035
+  timeout: False
+  obj: -0.732478159373
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.7324781593728149
+    80 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado17.mod
+  sha: cbbf8cb528636740c9871e37a91e904347861d66
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.559176
+  time: 0.00767207145691
+  timeout: False
+  obj: 0.475688626368
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.4756886263682926
+    38 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado18.mod
+  sha: 49991f2b422467ef01c30ab03c25e97a1f028e70
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.580162
+  time: 0.00741410255432
+  timeout: False
+  obj: 9.43327250128e-27
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 9.433272501276112e-27
+    51 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado19.mod
+  sha: 33e917a5e788b377c6d85cf4df844bc288c6350d
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.601583
+  time: 0.00764513015747
+  timeout: False
+  obj: -1.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -1
+    11 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado20.mod
+  sha: 9f616e9c03065f27b25ad0a23060a8276a39f9cc
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.622399
+  time: 0.00754714012146
+  timeout: False
+  obj: 1.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1
+    11 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado21.mod
+  sha: d99a5b5a3d5d7853568eba5e4b4f1f6a79e65baf
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.643306
+  time: 0.00682711601257
+  timeout: False
+  obj: 1.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1
+    11 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado22.mod
+  sha: 688791b88e2e1d493033f36a593513ff9d942715
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.663805
+  time: 0.00662183761597
+  timeout: False
+  obj: -0.918397340887
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.9183973408867073
+    48 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado23.mod
+  sha: e538287e673b70ec488fb7123d7a9ca0880c021c
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.684004
+  time: 0.00633788108826
+  timeout: False
+  obj: -0.824239398476
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.8242393984760767
+    45 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado24.mod
+  sha: be47c12c1bc7108fd96d2fdb3e39f330bdfb1c76
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.704320
+  time: 0.00617003440857
+  timeout: False
+  obj: -0.0278640701954
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.027864070195388287
+    35 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado25.mod
+  sha: aba8f41ec1abdafcec9f6eda19bca2ed9b1e87a2
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.723734
+  time: 0.00644898414612
+  timeout: False
+  obj: 3.5
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 3.5
+    73 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado26.mod
+  sha: 6a3bd96f8f32d3d45b043797ce1f62344a3c652a
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.744446
+  time: 0.00703406333923
+  timeout: False
+  obj: 0.367879441171
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.36787944117144233
+    30 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado27.mod
+  sha: dbb03be58ba105e986fc1b5a275eb160df8d1b30
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.765104
+  time: 0.00745391845703
+  timeout: False
+  obj: -0.451387818866
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.4513878188659972
+    39 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado28.mod
+  sha: 8d2444f2102c737181fcf19670bb947a603e1c75
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.786539
+  time: 0.00830507278442
+  timeout: False
+  obj: 0.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0
+    11 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado29.mod
+  sha: 61def882424eb19a17de5388f486423cdbc31832
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.808464
+  time: 0.00800108909607
+  timeout: False
+  obj: -0.410315206655
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.41031520665543475
+    29 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado30.mod
+  sha: 6b41f40bbd0b0327d2aec47c805cfea7a01e23c8
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.830411
+  time: 0.00853896141052
+  timeout: False
+  obj: -0.718281828459
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.7182818284590451
+    36 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado31.mod
+  sha: 85fb590a13a17136bb2a6f256eb8a18ae7270cb0
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.852764
+  time: 0.00859498977661
+  timeout: False
+  obj: -14.5926520257
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -14.592652025693901
+    88 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado32.mod
+  sha: f4ae97fc846823766da9b2d51e06e134a2be571d
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.875579
+  time: 0.00862383842468
+  timeout: False
+  obj: -1.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.9999999999999999
+    91 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado33.mod
+  sha: 9f4afce11f51612a5d9e5d4bfc102a23d90f9d72
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.897823
+  time: 0.00845384597778
+  timeout: False
+  obj: -12.0312494422
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -12.03124944216714
+    60 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado34.mod
+  sha: fc35129b044baa64bb2e56f2e101a783cfbc87c3
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.919895
+  time: 0.008141040802
+  timeout: False
+  obj: -0.535533905933
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.5355339059327374
+    43 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado35.mod
+  sha: 0e9ea5de6b34b5eb13f0a28c87990a0c8e0a008c
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.942057
+  time: 0.0085461139679
+  timeout: False
+  obj: -13.8627779867
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -13.862777986706536
+    87 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado36.mod
+  sha: 7a8d44d9ab2b5b7786b70fb1032600400e518821
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.963857
+  time: 0.00902009010315
+  timeout: False
+  obj: -0.35
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.34999999999999876
+    44 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado37.mod
+  sha: 3f426da4e82ae177e19fb792a2c09cd2286d0f8b
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:15:59.986177
+  time: 0.00808691978455
+  timeout: False
+  obj: -32.7812612933
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -32.78126129328042
+    77 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado38.mod
+  sha: 63d74ba290b081dc432c94c224e8c56c99dc6dc5
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.007888
+  time: 0.0075409412384
+  timeout: False
+  obj: 250.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 250
+    11 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado39.mod
+  sha: 584ba69cbd1faef98b279b92799ec83680e6a0dc
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.029018
+  time: 0.00738883018494
+  timeout: False
+  obj: -1.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -1
+    103 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: casado/casado40.mod
+  sha: 5ba9d8bfd4beaac83214a821c66b4edaf898d0fb
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.049682
+  time: 0.00741100311279
+  timeout: False
+  obj: -88.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -88.00000000000006
+    76 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen01.mod
+  sha: 512d9f94dcff7eea00081537d9641d2588343826
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.070491
+  time: 0.0071439743042
+  timeout: False
+  obj: 0.531927083333
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.5319270833333335
+    47 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen02.mod
+  sha: b66c6ec8298dedd9f0c73f7df23229b6481f43d9
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.091644
+  time: 0.00826096534729
+  timeout: False
+  obj: 1.89959934915
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1.8995993491521137
+    74 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen03.mod
+  sha: 4873bb7eb6873de8033547874f1b67ed4ab6a77c
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.111808
+  time: 0.00677895545959
+  timeout: False
+  obj: 12.0312494422
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 12.03124944216714
+    60 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen04.mod
+  sha: b2cc5f4eb0cbb120f458087b19affd5241f1b645
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.131706
+  time: 0.00675392150879
+  timeout: False
+  obj: 3.8504507088
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 3.85045070880022
+    44 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen05.mod
+  sha: 047a15d35063d0e3c5f0bd8fd9844ba8f4d1f8a9
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.151675
+  time: 0.00622296333313
+  timeout: False
+  obj: 1.15017313304
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1.1501731330421954
+    40 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen06.mod
+  sha: 99c1e94e960262335e236a4d4f82ef8832f8d3d8
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.172024
+  time: 0.00641202926636
+  timeout: False
+  obj: 0.824239398476
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.8242393984760767
+    45 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen07.mod
+  sha: d0cd05090d7a1d657f3cd7e7027509a404147950
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.191266
+  time: 0.00765490531921
+  timeout: False
+  obj: 1.60130754649
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1.6013075464943949
+    45 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen08.mod
+  sha: 33b0ef65835762c5ab9adcfd8bf9fc0126baf0ab
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.210420
+  time: 0.00647401809692
+  timeout: False
+  obj: 14.5080079272
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 14.508007927195033
+    120 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen09.mod
+  sha: 787812c6fcd1c6817d48381ba6b08376827c6386
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.230829
+  time: 0.00612092018127
+  timeout: False
+  obj: 0.223336656297
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.22333665629696697
+    48 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen10.mod
+  sha: 3ffa5101034760e6341e0610bc735f17c95efde6
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.250366
+  time: 0.00695490837097
+  timeout: False
+  obj: 1.81970574116
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1.8197057411596531
+    46 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen11.mod
+  sha: 6f9c06d58d2be1b62070a643f90dcd35b6cc8767
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.270069
+  time: 0.00653696060181
+  timeout: False
+  obj: 1.5
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1.5
+    57 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen12.mod
+  sha: a4f96ee671f9eff0a03306bcf9ee991a0abdf70e
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.289364
+  time: 0.00715899467468
+  timeout: False
+  obj: -0.707106781187
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -0.7071067811865475
+    38 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen13.mod
+  sha: 3d62618be6ed245a3912e388742928269ee647f6
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.309341
+  time: 0.00658488273621
+  timeout: False
+  obj: 1.58740105197
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1.5874010519681994
+    36 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen14.mod
+  sha: e55d7194c7db27aea06eb49b8bde2ddcaa3f9da7
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.329126
+  time: 0.00795698165894
+  timeout: False
+  obj: 0.788685387409
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.7886853874086726
+    38 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen15.mod
+  sha: dda9fb47e9e9c096f5ec9c9dbe3fcb7ea292906a
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.348376
+  time: 0.0064160823822
+  timeout: False
+  obj: 0.0355339059327
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.03553390593273758
+    59 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen16.mod
+  sha: 2343036511d7ed45ccbff24f67093992011b7562
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.368178
+  time: 0.00632691383362
+  timeout: False
+  obj: -7.51592415308
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -7.515924153082323
+    75 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen17.mod
+  sha: 7971aa55c5f9abf455c16a114db4580138805cb1
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.387514
+  time: 0.00591397285461
+  timeout: False
+  obj: -250.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective -250
+    11 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen18.mod
+  sha: cb3e1a4f483ad7836da4c4ca8c41849d75e371c1
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.406725
+  time: 0.00610184669495
+  timeout: False
+  obj: 0.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0
+    33 function evaluations.
+    Runtime = 0 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen19.mod
+  sha: c33e1aace5ee04a8bfa784cee97d2f6d6cdf628f
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.425944
+  time: 0.00685286521912
+  timeout: False
+  obj: 1.0
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 1
+    11 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+
+- model: hansen/hansen20.mod
+  sha: 174f4f3f29b63affedf112cb25d9f9c672828694
+  solver: lgo
+  solver_options:
+    opmode: 0
+  start: 2015-05-28 15:16:00.446186
+  time: 0.00695109367371
+  timeout: False
+  obj: 0.0634905289364
+  solve_result: solved?
+  solve_message: |
+    LGO 2015-01-17: Feasible solution from local search.
+    Objective 0.06349052893643989
+    52 function evaluations.
+    Runtime = 0.004 seconds
+  output: |
+    LGO: opmode=0
+

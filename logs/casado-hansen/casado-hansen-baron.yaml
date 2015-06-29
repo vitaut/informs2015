@@ -1,0 +1,813 @@
+- model: casado/casado01.mod
+  sha: d83bc5f2a89421d937b9d2ea8f9053d822231d4d
+  solver: baron
+  start: 2015-05-28 15:14:32.581898
+  time: 0.0450060367584
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado02.mod
+  sha: 12dd414a720f2526b44e1501b692157882bcb668
+  solver: baron
+  start: 2015-05-28 15:14:32.660569
+  time: 0.0122458934784
+  timeout: False
+  obj: -1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: casado/casado03.mod
+  sha: 99d42a9aa5d854a1a395b4f8ea9a643daf8fde26
+  solver: baron
+  start: 2015-05-28 15:14:32.692464
+  time: 0.0540471076965
+  timeout: False
+  obj: 3.968005852e-25
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 2 iterations, optimal within tolerances.
+    Objective 3.9680058520024243e-25
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado04.mod
+  sha: d66580bf3bc203b1138b9d173097ab4504e79b70
+  solver: baron
+  start: 2015-05-28 15:14:32.770802
+  time: 0.0117681026459
+  timeout: False
+  obj: 1.7
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado05.mod
+  sha: f0d8b96dddcb361e84f9825293bd6088c36fbe87
+  solver: baron
+  start: 2015-05-28 15:14:32.800686
+  time: 0.0404040813446
+  timeout: False
+  obj: -0.0209026660516
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 1 iterations, optimal within tolerances.
+    Objective -0.02090266605163972
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado06.mod
+  sha: 8ffec35dcaa8d8ca6eeddc59a9ecf138b7c2f037
+  solver: baron
+  start: 2015-05-28 15:14:32.879264
+  time: 0.0107300281525
+  timeout: False
+  obj: 2.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+    BARON does not support operation sin
+
+- model: casado/casado07.mod
+  sha: bb04871d5da5de949efa2154864aecbad3b3d543
+  solver: baron
+  start: 2015-05-28 15:14:32.909575
+  time: 0.0103769302368
+  timeout: False
+  obj: 1.6
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado08.mod
+  sha: 450c72b034d07c260f82132eeb2c59859b58c6cb
+  solver: baron
+  start: 2015-05-28 15:14:32.939415
+  time: 0.00951409339905
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado09.mod
+  sha: 2d451fed50dde5eb4bff6677a44ae613a12af5c8
+  solver: baron
+  start: 2015-05-28 15:14:32.968599
+  time: 0.0114741325378
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado10.mod
+  sha: cd43aa39c11f9134d7f045670787823eb8a6e242
+  solver: baron
+  start: 2015-05-28 15:14:32.998466
+  time: 0.0114688873291
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado11.mod
+  sha: 94b1681f6bcf7d8288a8c3832c96badec54d79b1
+  solver: baron
+  start: 2015-05-28 15:14:33.028962
+  time: 0.0116858482361
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado12.mod
+  sha: bca9f82a4cbc74df6ff3dfa2e80be5e2488327ee
+  solver: baron
+  start: 2015-05-28 15:14:33.059254
+  time: 0.0115158557892
+  timeout: False
+  obj: nan
+  obj_error: |
+    Error executing "print" command:
+    	can't evaluate log(0): Numerical result out of range
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado13.mod
+  sha: 0e60baafb8c9ab27cdb0aa94e5a97752d2934bbb
+  solver: baron
+  start: 2015-05-28 15:14:33.089455
+  time: 0.0105979442596
+  timeout: False
+  obj: nan
+  obj_error: |
+    Error executing "print" command:
+    	can't evaluate log(0): Numerical result out of range
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado14.mod
+  sha: 77bba92fabd5088fe87731f2c2108203ee63c2ce
+  solver: baron
+  start: 2015-05-28 15:14:33.119303
+  time: 0.038743019104
+  timeout: False
+  obj: -0.141100488473
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 3 iterations, optimal within tolerances.
+    Objective -0.14110048847329137
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado15.mod
+  sha: b1d5ca6cda21bd8c8d2ce2ffe5b018d3f4ede83f
+  solver: baron
+  start: 2015-05-28 15:14:33.197784
+  time: 0.0117502212524
+  timeout: False
+  obj: 7.54176758683
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: casado/casado16.mod
+  sha: 4a9d5ee4d82c9003035d42dbd81df18c303fc466
+  solver: baron
+  start: 2015-05-28 15:14:33.228157
+  time: 0.0114479064941
+  timeout: False
+  obj: 7.73840549191
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado17.mod
+  sha: cbbf8cb528636740c9871e37a91e904347861d66
+  solver: baron
+  start: 2015-05-28 15:14:33.258795
+  time: 0.0108489990234
+  timeout: False
+  obj: 0.527131399166
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado18.mod
+  sha: 49991f2b422467ef01c30ab03c25e97a1f028e70
+  solver: baron
+  start: 2015-05-28 15:14:33.288892
+  time: 0.0117959976196
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado19.mod
+  sha: 33e917a5e788b377c6d85cf4df844bc288c6350d
+  solver: baron
+  start: 2015-05-28 15:14:33.319277
+  time: 0.0111391544342
+  timeout: False
+  obj: -1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: casado/casado20.mod
+  sha: 9f616e9c03065f27b25ad0a23060a8276a39f9cc
+  solver: baron
+  start: 2015-05-28 15:14:33.349658
+  time: 0.017462015152
+  timeout: False
+  obj: 1.0
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 0 iterations, optimal within tolerances.
+    Objective 1
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado21.mod
+  sha: d99a5b5a3d5d7853568eba5e4b4f1f6a79e65baf
+  solver: baron
+  start: 2015-05-28 15:14:33.395560
+  time: 0.0117778778076
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: casado/casado22.mod
+  sha: 688791b88e2e1d493033f36a593513ff9d942715
+  solver: baron
+  start: 2015-05-28 15:14:33.425728
+  time: 0.0106909275055
+  timeout: False
+  obj: 3.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: casado/casado23.mod
+  sha: e538287e673b70ec488fb7123d7a9ca0880c021c
+  solver: baron
+  start: 2015-05-28 15:14:33.455546
+  time: 0.0107579231262
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado24.mod
+  sha: be47c12c1bc7108fd96d2fdb3e39f330bdfb1c76
+  solver: baron
+  start: 2015-05-28 15:14:33.485301
+  time: 0.0105299949646
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado25.mod
+  sha: aba8f41ec1abdafcec9f6eda19bca2ed9b1e87a2
+  solver: baron
+  start: 2015-05-28 15:14:33.515233
+  time: 0.0106120109558
+  timeout: False
+  obj: 8.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: casado/casado26.mod
+  sha: 6a3bd96f8f32d3d45b043797ce1f62344a3c652a
+  solver: baron
+  start: 2015-05-28 15:14:33.545377
+  time: 0.0116930007935
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado27.mod
+  sha: dbb03be58ba105e986fc1b5a275eb160df8d1b30
+  solver: baron
+  start: 2015-05-28 15:14:33.574996
+  time: 0.0113711357117
+  timeout: False
+  obj: 1.2
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+    BARON does not support operation cos
+
+- model: casado/casado28.mod
+  sha: 8d2444f2102c737181fcf19670bb947a603e1c75
+  solver: baron
+  start: 2015-05-28 15:14:33.604601
+  time: 0.0115838050842
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado29.mod
+  sha: 61def882424eb19a17de5388f486423cdbc31832
+  solver: baron
+  start: 2015-05-28 15:14:33.635001
+  time: 0.0548980236053
+  timeout: False
+  obj: -0.41031520665
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 21 iterations, optimal within tolerances.
+    Objective -0.4103152066495612
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado30.mod
+  sha: 6b41f40bbd0b0327d2aec47c805cfea7a01e23c8
+  solver: baron
+  start: 2015-05-28 15:14:33.713969
+  time: 0.0124659538269
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado31.mod
+  sha: 85fb590a13a17136bb2a6f256eb8a18ae7270cb0
+  solver: baron
+  start: 2015-05-28 15:14:33.743207
+  time: 0.0986528396606
+  timeout: False
+  obj: -14.5926520257
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 21 iterations, optimal within tolerances.
+    Objective -14.592652025693903
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado32.mod
+  sha: f4ae97fc846823766da9b2d51e06e134a2be571d
+  solver: baron
+  start: 2015-05-28 15:14:33.872632
+  time: 0.0113849639893
+  timeout: False
+  obj: nan
+  obj_error: |
+    Error executing "print" command:
+    	can't compute 1/0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado33.mod
+  sha: 9f4afce11f51612a5d9e5d4bfc102a23d90f9d72
+  solver: baron
+  start: 2015-05-28 15:14:33.902677
+  time: 0.0104801654816
+  timeout: False
+  obj: 4.73840549191
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: casado/casado34.mod
+  sha: fc35129b044baa64bb2e56f2e101a783cfbc87c3
+  solver: baron
+  start: 2015-05-28 15:14:33.932745
+  time: 0.0472128391266
+  timeout: False
+  obj: -0.535533905933
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 1 iterations, optimal within tolerances.
+    Objective -0.5355339059327378
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado35.mod
+  sha: 0e9ea5de6b34b5eb13f0a28c87990a0c8e0a008c
+  solver: baron
+  start: 2015-05-28 15:14:34.011077
+  time: 0.156238079071
+  timeout: False
+  obj: -13.9223448765
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 35 iterations, optimal within tolerances.
+    Objective -13.922344876535325
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado36.mod
+  sha: 7a8d44d9ab2b5b7786b70fb1032600400e518821
+  solver: baron
+  start: 2015-05-28 15:14:34.189467
+  time: 0.0219368934631
+  timeout: False
+  obj: -0.35
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 0 iterations, optimal within tolerances.
+    Objective -0.34999999999999964
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado37.mod
+  sha: 3f426da4e82ae177e19fb792a2c09cd2286d0f8b
+  solver: baron
+  start: 2015-05-28 15:14:34.233619
+  time: 0.0669100284576
+  timeout: False
+  obj: -32.7812612933
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 45 iterations, optimal within tolerances.
+    Objective -32.781261293280416
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado38.mod
+  sha: 63d74ba290b081dc432c94c224e8c56c99dc6dc5
+  solver: baron
+  start: 2015-05-28 15:14:34.360716
+  time: 0.0645570755005
+  timeout: False
+  obj: 7.00000001469
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 100 iterations, optimal within tolerances.
+    Objective 7.000000014691011
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado39.mod
+  sha: 584ba69cbd1faef98b279b92799ec83680e6a0dc
+  solver: baron
+  start: 2015-05-28 15:14:34.436939
+  time: 0.118623018265
+  timeout: False
+  obj: -1.0
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 293 iterations, optimal within tolerances.
+    Objective -1.0000000000000568
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: casado/casado40.mod
+  sha: 5ba9d8bfd4beaac83214a821c66b4edaf898d0fb
+  solver: baron
+  start: 2015-05-28 15:14:34.613823
+  time: 0.154289960861
+  timeout: False
+  obj: -89.0
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 167 iterations, optimal within tolerances.
+    Objective -89
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: hansen/hansen01.mod
+  sha: 512d9f94dcff7eea00081537d9641d2588343826
+  solver: baron
+  start: 2015-05-28 15:14:34.790463
+  time: 0.0541660785675
+  timeout: False
+  obj: 29763.2333333
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 39 iterations, optimal within tolerances.
+    Objective 29763.233333333326
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: hansen/hansen02.mod
+  sha: b66c6ec8298dedd9f0c73f7df23229b6481f43d9
+  solver: baron
+  start: 2015-05-28 15:14:34.866523
+  time: 0.00724411010742
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen03.mod
+  sha: 4873bb7eb6873de8033547874f1b67ed4ab6a77c
+  solver: baron
+  start: 2015-05-28 15:14:34.885575
+  time: 0.00674915313721
+  timeout: False
+  obj: -4.73840549191
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen04.mod
+  sha: b2cc5f4eb0cbb120f458087b19affd5241f1b645
+  solver: baron
+  start: 2015-05-28 15:14:34.904644
+  time: 60.0029389858
+  timeout: True
+  obj: 3.8504507088
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): Interrupted by Control-C; objective 3.8504507088002207
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON: Cntrl-C Abort
+
+- model: hansen/hansen05.mod
+  sha: 047a15d35063d0e3c5f0bd8fd9844ba8f4d1f8a9
+  solver: baron
+  start: 2015-05-28 15:15:34.919822
+  time: 0.00648999214172
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen06.mod
+  sha: 99c1e94e960262335e236a4d4f82ef8832f8d3d8
+  solver: baron
+  start: 2015-05-28 15:15:34.937970
+  time: 0.00615310668945
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen07.mod
+  sha: d0cd05090d7a1d657f3cd7e7027509a404147950
+  solver: baron
+  start: 2015-05-28 15:15:34.956092
+  time: 0.00761103630066
+  timeout: False
+  obj: nan
+  obj_error: |
+    Error executing "print" command:
+    	can't evaluate log(0): Numerical result out of range
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen08.mod
+  sha: 33b0ef65835762c5ab9adcfd8bf9fc0126baf0ab
+  solver: baron
+  start: 2015-05-28 15:15:34.975082
+  time: 0.00748085975647
+  timeout: False
+  obj: -4.45823241317
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: hansen/hansen09.mod
+  sha: 787812c6fcd1c6817d48381ba6b08376827c6386
+  solver: baron
+  start: 2015-05-28 15:15:34.994623
+  time: 0.00668287277222
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen10.mod
+  sha: 3ffa5101034760e6341e0610bc735f17c95efde6
+  solver: baron
+  start: 2015-05-28 15:15:35.013501
+  time: 0.00693106651306
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen11.mod
+  sha: 6f9c06d58d2be1b62070a643f90dcd35b6cc8767
+  solver: baron
+  start: 2015-05-28 15:15:35.032203
+  time: 0.0096549987793
+  timeout: False
+  obj: -3.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+
+- model: hansen/hansen12.mod
+  sha: a4f96ee671f9eff0a03306bcf9ee991a0abdf70e
+  solver: baron
+  start: 2015-05-28 15:15:35.058951
+  time: 0.00710606575012
+  timeout: False
+  obj: -1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation cos
+    BARON does not support operation sin
+
+- model: hansen/hansen13.mod
+  sha: 3d62618be6ed245a3912e388742928269ee647f6
+  solver: baron
+  start: 2015-05-28 15:15:35.077932
+  time: 0.0187859535217
+  timeout: False
+  obj: 1.58740105197
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 0 iterations, optimal within tolerances.
+    Objective 1.5874010519681994
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: hansen/hansen14.mod
+  sha: e55d7194c7db27aea06eb49b8bde2ddcaa3f9da7
+  solver: baron
+  start: 2015-05-28 15:15:35.122240
+  time: 0.00804209709167
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen15.mod
+  sha: dda9fb47e9e9c096f5ec9c9dbe3fcb7ea292906a
+  solver: baron
+  start: 2015-05-28 15:15:35.141595
+  time: 0.0409379005432
+  timeout: False
+  obj: 0.0355339059327
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 1 iterations, optimal within tolerances.
+    Objective 0.03553390593273752
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: hansen/hansen16.mod
+  sha: 2343036511d7ed45ccbff24f67093992011b7562
+  solver: baron
+  start: 2015-05-28 15:15:35.219899
+  time: 0.034166097641
+  timeout: False
+  obj: -7.51592415308
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 1 iterations, optimal within tolerances.
+    Objective -7.515924153082324
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: hansen/hansen17.mod
+  sha: 7971aa55c5f9abf455c16a114db4580138805cb1
+  solver: baron
+  start: 2015-05-28 15:15:35.297676
+  time: 0.0750739574432
+  timeout: False
+  obj: -7.00000001469
+  solve_result: solved
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): 100 iterations, optimal within tolerances.
+    Objective -7.000000014691011
+  output: |
+    BARON 15.2.0 (2015.02.24): 
+
+- model: hansen/hansen18.mod
+  sha: cb3e1a4f483ad7836da4c4ca8c41849d75e371c1
+  solver: baron
+  start: 2015-05-28 15:15:35.425086
+  time: 0.00790214538574
+  timeout: False
+  obj: -4.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation nonlinear if
+
+- model: hansen/hansen19.mod
+  sha: c33e1aace5ee04a8bfa784cee97d2f6d6cdf628f
+  solver: baron
+  start: 2015-05-28 15:15:35.444937
+  time: 0.0113430023193
+  timeout: False
+  obj: 1.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
+- model: hansen/hansen20.mod
+  sha: 174f4f3f29b63affedf112cb25d9f9c672828694
+  solver: baron
+  start: 2015-05-28 15:15:35.474638
+  time: 0.0116040706635
+  timeout: False
+  obj: 0.0
+  solve_result: failure
+  solve_message: |
+    BARON 15.2.0 (2015.02.24): operation not supported by BARON
+  output: |
+    BARON 15.2.0 (2015.02.24): BARON does not support operation sin
+
