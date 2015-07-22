@@ -5,12 +5,12 @@ Getting the source::
 
   $ git clone --recursive https://github.com/vitaut/informs2015.git
 
-Running benchmarks::
+Running a benchmark::
 
-  $ ./benchmark run <name>
+  $ ./benchmark run <path>
 
-where ``<name>`` is the name of a Python module describing the benchmark
-such as ``casado-hansen``.
+where ``<path>`` is a path to a Python benchmark module such as
+``casado-hansen.py``.
 
 The logs where generated with the benchmark from the `global-optimization
 <https://github.com/ampl/global-optimization>`_ repository. To reduce the
