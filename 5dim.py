@@ -3,6 +3,7 @@
 
 import couenne, lgo
 from util import Config, get_problem_combinator, load_index
+from common import *
 
 inputs = get_problem_combinator(load_index('casado', 'hansen'), 5, 1000)
 

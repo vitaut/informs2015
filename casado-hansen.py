@@ -2,6 +2,7 @@
 
 import couenne, lgo
 from util import Config, load_index
+from common import *
 
 inputs = load_index('casado', 'hansen')
 
