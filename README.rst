@@ -17,3 +17,7 @@ The logs where generated with the benchmark from the `global-optimization
 size of Couenne logs, they were processed with:: 
 
   sed -i '/Cbc0010I/d' <filename>
+
+Formatting logs:
+
+  $ ./benchmark format <path-to-logs-dir>
