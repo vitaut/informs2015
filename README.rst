@@ -18,6 +18,6 @@ size of Couenne logs, they were processed with::
 
   sed -i '/Cbc0010I/d' <filename>
 
-Formatting logs:
+Formatting logs::
 
   $ ./benchmark format <path-to-logs-dir>
