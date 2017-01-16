@@ -133,7 +133,9 @@ def obj_status(result, inputs, obj_tolerance):
 # Read the log and get the number of variables and constraints
 # for each problem.
 def read_log(filename, inputs, excludes=[]):
-  results = [r for r in yaml.load(open(filename, 'r')) if model_name(r) not in excludes]
+  results = [r for r in yaml.load(open(filename, 'r'))
+             if model_name(r) not in excludes and
+                "operation not supported by BARON" not in r['solve_message']]
   for result in results:
     if not result['solve_message']:
       result['solve_message'] = ''
