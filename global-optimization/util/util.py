@@ -363,14 +363,14 @@ def prepare_for_merge(model, suffix):
 
 def merge_models(models):
   """
-  Merge given AMPL models into a single one using product composition
+  Merge given AMPL models into a single one using sum composition
   of objective functions.
   For example, two models
     minimize o: f1(x);
   and
     minimize o: f2(x);
   are combined into a single model
-    minimize o: f1(x1) * f2(x2);
+    minimize o: f1(x1) + f2(x2);
   """
   merged_head = []
   merged_tail = []
@@ -380,9 +380,9 @@ def merge_models(models):
     head, obj, tail, best_obj = prepare_for_merge(models[i], i + 1)
     merged_head += head
     merged_tail += tail
-    merged_best_obj *= best_obj
+    merged_best_obj += best_obj
     if merged_obj.body:
-      merged_obj.body = ampl.BinaryExpr('*', merged_obj.body, obj.body)
+      merged_obj.body = ampl.BinaryExpr('+', merged_obj.body, obj.body)
     else:
       merged_obj.body = obj.body
   # Invert sign if objectives are of different kinds.
