@@ -1,0 +1,24 @@
+János D. Pintér and Victor Zverovich
+
+Legend
+MN  Model Name
+NV  Number of variables
+NC  Number of constraints
+OV  Known optimal value (or best known objective value)
+OS  Numerical optimal value returned by the solver
+CV  Maximal constraint violation
+FE  Number of model function and constraint evaluations
+RT  Solver runtime (complete execution time including input and license verification time)
+
+               MN  NV  NC       OV       OS CV FE          RT   
+1  03-05-31-31-53   5   0  2.20639  2.20639  -  -    5.088275   
+2  34-41-55-57-57   5   0  16.1956  16.1956  -  -   42.551515   
+3  03-05-29-53-53   5   0  2.39398  2.39398  -  -    0.070809   
+4  31-36-37-40-57   5   0  8.27609      nan  -  -  600.017590  ?
+
+Summary of results
+Number of test problems: 4
+Number of successful solutions: 3 of 4
+Average relative error of solutions found: 5e-08
+Average relative error of unsolved problems: nan
+Total solver runtime (seconds): 647.73

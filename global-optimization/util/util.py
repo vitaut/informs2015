@@ -374,7 +374,7 @@ def merge_models(models):
   """
   merged_head = []
   merged_tail = []
-  merged_best_obj = 1
+  merged_best_obj = 0
   merged_obj = ampl.Decl('minimize', 'f')
   for i in range(len(models)):
     head, obj, tail, best_obj = prepare_for_merge(models[i], i + 1)
